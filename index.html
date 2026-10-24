@@ -2,175 +2,84 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>安心憶起・微笑后里｜失智友善資源導航</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>安心憶起・微笑后里｜家庭資源導航</title>
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#f6f7f3;color:#283a32;font-family:"Microsoft JhengHei",sans-serif}
-header{background:#39765b;color:white;padding:28px 16px;text-align:center}
-h1{margin:0;font-size:26px}
-header p{margin:10px 0 0}
-main{max-width:760px;margin:auto;padding:20px 15px}
-.panel{background:white;border-radius:17px;padding:20px;margin-bottom:15px;box-shadow:0 2px 12px #26382b12}
-.message{background:#edf5ed;border-radius:14px;padding:15px;line-height:1.8;margin-bottom:15px}
-button{width:100%;border:1px solid #cdded2;border-radius:11px;background:white;padding:14px;margin:5px 0;text-align:left;font-size:16px;color:#283a32;cursor:pointer}
-button:hover{background:#e9f4ed}
-.primary{background:#39765b;color:white;text-align:center}
-input{width:100%;padding:14px;font-size:16px;border:1px solid #b9ccbf;border-radius:10px}
-.card{padding:15px;margin:10px 0;border-left:5px solid #39765b;background:#f5f8f5;border-radius:8px;line-height:1.8}
-small{color:#65756b}
-a{color:#276c4a}
-footer{text-align:center;padding:20px;color:#63736a;font-size:13px}
+*{box-sizing:border-box}body{margin:0;background:#f7f8f4;color:#263a31;font-family:"Microsoft JhengHei",system-ui,sans-serif;line-height:1.7}
+header{background:#316e53;color:#fff;padding:29px 15px;text-align:center}h1{font-size:clamp(24px,5vw,32px);margin:0}header p{margin:5px 0}
+main{max-width:820px;margin:auto;padding:16px}.panel{background:#fff;border:1px solid #dfe6df;border-radius:17px;padding:20px;margin:12px 0}
+.sub{font-size:14px;color:#53695c}.message{background:#ebf4ee;border-radius:12px;padding:15px;margin:12px 0}
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:9px}
+button{font:inherit;cursor:pointer;border-radius:11px;border:1px solid #b9cfc0;padding:13px;text-align:left;background:#fff;color:#263a31;min-height:48px}
+button:hover{background:#edf5ef}button:focus-visible,input:focus-visible{outline:3px solid #437b5a;outline-offset:2px}
+.primary{background:#316e53;color:#fff;text-align:center}.primary:hover{background:#265b43}
+input{width:100%;font:inherit;padding:13px;border:1px solid #aac3b2;border-radius:10px;min-width:0}
+.enter{display:flex;gap:9px;margin-top:13px}.enter button{flex-shrink:0}
+.card{border-left:4px solid #538c69;background:#f5f8f5;border-radius:7px;padding:13px;margin:11px 0}
+.card h3{margin:0 0 5px;font-size:17px}.card p{margin:4px 0}h2{font-size:22px;margin:5px 0}
+.bar{height:6px;border-radius:9px;background:#e2e8e1;overflow:hidden}.progress{height:100%;width:25%;background:#538c69;transition:width .2s}
+a{color:#205d41}footer{font-size:13px;text-align:center;padding:16px;color:#63716a}
+.warn{border-left-color:#b25e29;background:#fff6ea}
+[hidden]{display:none!important}
+@media(max-width:430px){.enter{flex-direction:column}.choices{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header>
-<h1>🌼 安心憶起・微笑后里</h1>
-<p>后里失智友善社區｜家庭資源導航</p>
-</header>
+<header><h1>🌼 安心憶起・微笑后里</h1><p>后里失智友善社區｜家庭資源互動導航</p></header>
 <main>
 <section class="panel">
-<div class="message" id="question">
-您好！請問家人目前遇到什麼困難？<br>
-您可以選擇下方情境，讓我幫您尋找適合的資源。
-</div>
-<div id="choices"></div>
-<div id="typing">
-<input id="freeText" placeholder="例如：媽媽最近常常忘記吃藥">
-<button class="primary" onclick="searchText()">送出問題</button>
-</div>
+<p class="sub" id="status">第 1 步：說說遇到的問題</p><div class="bar"><div id="progress" class="progress"></div></div>
+<div id="question" class="message" aria-live="polite">您好！您最希望替家人解決什麼問題？請點選情境，或用自己的話描述。</div>
+<div id="choices" class="choices"></div>
+<form id="custom" class="enter"><input id="freeText" maxlength="200" aria-label="描述家人遇到的困難" placeholder="例如：媽媽不願意洗澡、晚上一直出門"><button class="primary" type="submit">送出問題</button></form>
 </section>
-<section class="panel" id="results" hidden></section>
-<button onclick="start()">↻ 重新查詢</button>
+<section id="result" class="panel" hidden aria-live="polite"></section>
+<button id="reset" type="button">↻ 重新查詢其他問題</button>
+<section class="panel"><h2>認識八類生活支持節點</h2><p class="sub">以下是本網站使用的八類資源導航分類，不代表已逐一確認的合作單位名冊。</p><div id="nodeList" class="choices"></div></section>
 </main>
-<footer>
-115年臺中市后里失智友善社區營造｜資源導航展示版<br>
-本網站提供初步資訊，非醫療診斷或正式轉介。
-</footer>
+<footer>115年臺中市后里失智友善社區營造｜展示與試用版<br>不蒐集或傳送輸入內容；不提供醫療診斷、資格認定或正式轉介。請勿輸入姓名、身分證字號及其他可識別個資。</footer>
 <script>
-const data={
-memory:{
-name:"記憶與認知問題",
-nodes:["衛生所與醫療健康節點","社區關懷及認知促進節點"],
-tips:["記錄記憶改變的情況及對日常生活的影響","可先聯絡衛生所，諮詢認知評估與就醫途徑","需要時進一步詢問失智共同照護資源"]},
-medication:{
-name:"用藥與健康安全",
-nodes:["藥局及用藥安全節點","衛生所與醫療健康節點"],
-tips:["請藥師協助檢視用藥方式及服藥提醒工具","不要自行更改處方藥的劑量","如有突然意識改變或嚴重不適，立即就醫"]},
-care:{
-name:"日常生活與長照需求",
-nodes:["社會福利與照顧服務節點","衛生所與醫療健康節點"],
-tips:["可撥1966詢問長照資格與需求評估","視需要詢問居家服務、日間照顧或喘息服務"]},
-safety:{
-name:"外出、走失及安全",
-nodes:["警政安全節點","鄰里與友善商家節點","消防及居家安全節點"],
-tips:["先建立家人的緊急聯絡資訊與安全支持網絡","發生走失時應及早報警，提供近照及最後出現位置","檢視住家環境、動線及跌倒風險"]},
-activity:{
-name:"社區活動與友善參與",
-nodes:["社區活動及關懷據點","鄰里支持節點","友善商家及生活參與節點"],
-tips:["可詢問后里在地社區據點的活動資訊","依長輩能力、意願及交通需求選擇合適活動"]},
-family:{
-name:"家屬支持及喘息需求",
-nodes:["社會福利與照顧服務節點","社區關懷及支持節點"],
-tips:["可撥1966詢問喘息服務及照顧資源","尋求家庭照顧者支持、照顧諮詢及親友協助"]}
+(function(){
+const categories={
+memory:{label:"🧠 記憶變差、懷疑失智",title:"認知變化與就醫評估",question:"最近的記憶或行為改變，已經影響哪些生活事情？",answers:[["只是健忘，還能照顧自己","mild"],["重複問話、忘記約定或用藥","daily"],["迷路、無法處理日常生活","severe"],["不確定","unknown"]],nodes:["醫療健康","社區參與"],tips:["記錄變化何時開始、頻率及是否影響生活。","向后里區衛生所諮詢適合的評估或就醫方向。","若已有失智診斷，可詢問失智共同照護及社區支持資源。"]},
+medication:{label:"💊 忘記吃藥、重複吃藥",title:"用藥安全與服藥支持",question:"用藥目前最令人擔心的是什麼？",answers:[["常忘記吃藥","forgot"],["可能重複吃藥、拿錯藥","double"],["不知道藥怎麼吃","instructions"],["目前有明顯不舒服或意識突然改變","urgent"]],nodes:["用藥安全","醫療健康"],tips:["保留藥袋、藥單，請藥師檢視用藥方式。","和家人討論藥盒、提醒與服藥紀錄，不自行調整處方。","若疑似過量服藥或急性不適，應立即向醫療專業人員求助。"]},
+care:{label:"🏠 洗澡、吃飯、行動需要幫忙",title:"日常照顧與長照申請",question:"目前家人最需要協助的是哪一種事？",answers:[["洗澡、穿衣、如廁","personal"],["走路、移位、跌倒風險","mobility"],["白天無人照顧","daytime"],["交通、輔具或居家環境","equipment"]],nodes:["社政照顧","醫療健康"],tips:["可撥1966詢問長照需求評估與服務資格。","視評估結果了解居家服務、日間照顧或輔具等選項。","整理長輩目前哪些事能自己完成、哪些事需要協助。"]},
+safety:{label:"🚶 擔心走失、迷路、外出安全",title:"走失預防與社區安全",question:"請問現在是什麼情況？",answers:[["人現在找不到、疑似走失","urgent"],["曾經走失或迷路","past"],["常自行外出，家人擔心","risk"],["主要擔心跌倒和環境安全","fall"]],nodes:["警政安全","鄰里守望","友善商家","消防救護"],tips:["備妥近期照片、緊急聯絡資訊，建立家屬與鄰里協助方式。","如發生走失，應及早報警，提供最後出現位置與衣著特徵。","居家及外出安全措施應依長輩能力、生活習慣共同討論。"]},
+family:{label:"💛 家屬很累、需要喘息",title:"家庭照顧者支持",question:"哪一件事最讓您感到吃力？",answers:[["沒有人可以輪流照顧","replacement"],["夜間照顧、睡眠不足","night"],["情緒壓力或不知道怎麼照顧","stress"],["想了解喘息或支持團體","support"]],nodes:["社政照顧","鄰里守望"],tips:["可撥1966詢問喘息服務及長照相關評估。","可進一步了解家庭照顧者支持服務及照顧技巧諮詢。","優先釐清最需要的協助是替代人力、照顧技巧或情緒支持。"]},
+activity:{label:"🌿 想找長輩活動、據點或陪伴",title:"社區參與與認知促進",question:"您希望尋找哪種活動或安排？",answers:[["健康促進、共餐、社交活動","social"],["認知促進或失智支持活動","cognitive"],["白天需要有人照顧","daycare"],["希望找交通方便的地點","nearby"]],nodes:["社區參與","友善商家","鄰里守望"],tips:["可詢問后里社區據點、活動中心或相關社區服務。","依長輩認知與生活功能，選擇適合的團體活動。","正式版須加入實際據點地址、課程、交通與服務條件。"]},
+behavior:{label:"🌙 晚上不睡、情緒或行為改變",title:"情緒與行為改變的支持",question:"最近主要出現哪個情況？",answers:[["晚上睡不好、日夜顛倒","sleep"],["容易焦躁、生氣或抗拒照顧","agitation"],["突然出現混亂或劇烈改變","urgent"],["重複尋找東西或想回家","repeat"]],nodes:["醫療健康","社政照顧"],tips:["觀察何時開始、是否有疼痛、不適、藥物變動或環境因素。","突然意識混亂或急性改變應立即就醫，不宜當成一般失智症狀。","可尋求醫療評估、照顧技巧與家屬支持資源。"]},
+environment:{label:"🏡 居家防跌、環境改善",title:"居家安全與生活環境",question:"家裡哪個情況最需要改善？",answers:[["浴室濕滑、跨門檻","bath"],["走道雜物、燈光不足","path"],["需要扶手或輔具","assist"],["火災、瓦斯或用火安全","fire"]],nodes:["消防救護","社政照顧","醫療健康"],tips:["優先排除濕滑、障礙物與照明不足等風險。","如需輔具或無障礙改善，可詢問長照評估與補助條件。","消防居家安全事項可向消防單位諮詢。"]}
 };
-const menu=[
-["🧠 常常忘東忘西","memory"],
-["💊 忘記吃藥或吃錯藥","medication"],
-["🏠 洗澡、吃飯需要人幫忙","care"],
-["🚶 擔心走失或跌倒","safety"],
-["🌿 想找社區活動","activity"],
-["💛 家屬照顧得很累","family"]
+const nodeDefs=[["醫療健康","認知、健康評估與就醫方向"],["用藥安全","藥師諮詢與安全服藥"],["警政安全","走失預防、報案與協尋"],["消防救護","救護、用火與環境安全"],["社政照顧","長照評估、照顧與喘息"],["鄰里守望","鄰里關懷及生活協助"],["社區參與","社區活動、據點與共融"],["友善商家","日常消費與社區友善支持"]];
+const $=id=>document.getElementById(id); let selected=null,detail=null;
+nodeDefs.forEach(([name,desc])=>{const d=document.createElement("div");d.className="card";d.textContent=name+"｜"+desc;$("nodeList").append(d)});
+function options(answers,cb){$("choices").replaceChildren();answers.forEach(([label,key])=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.onclick=()=>cb(key);$("choices").append(b)})}
+function setProgress(n){$("status").textContent=n===1?"第 1 步：描述問題":n===2?"第 2 步：確認情況":"第 3 步：資源建議";$("progress").style.width=n===1?"33%":n===2?"66%":"100%"}
+function start(){selected=null;detail=null;$("result").hidden=true;$("result").replaceChildren();$("custom").hidden=false;$("freeText").value="";setProgress(1);$("question").textContent="您好！您最希望替家人解決什麼問題？請點選情境，或用自己的話描述。";options(Object.entries(categories).map(([k,v])=>[v.label,k]),select)}
+function select(k){selected=k;detail=null;setProgress(2);$("custom").hidden=true;$("result").hidden=true;$("question").textContent=categories[k].question;options(categories[k].answers,answer)}
+function answer(k){detail=k;if(k==="urgent"){emergency();return}render()}
+function emergency(){setProgress(3);$("choices").replaceChildren();$("question").textContent="目前的安全或健康問題，需要優先處理。";const r=$("result");r.hidden=false;r.replaceChildren();const a=document.createElement("div");a.className="card warn";a.innerHTML="<h2>⚠️ 優先求助</h2><p>若有人走失、受傷或處於立即危險，請儘快撥打 <a href='tel:110'>110</a> 或 <a href='tel:119'>119</a>。若出現突然意識混亂、疑似藥物過量或急性健康變化，應立即就醫，不要等待網站回覆。</p>";r.append(a)}
+function render(){setProgress(3);$("choices").replaceChildren();$("question").textContent="已根據您的具體情況，整理較適合的后里資源方向。";const d=categories[selected],r=$("result");r.replaceChildren();r.hidden=false;const h=document.createElement("h2");h.textContent="🌼 推薦："+d.title;r.append(h);
+const selectedAnswer=d.answers.find(x=>x[1]===detail);if(selectedAnswer){let p=document.createElement("p");p.className="sub";p.textContent="您選擇的狀況："+selectedAnswer[0];r.append(p)}
+const extras={forgot:"重點是建立每日用藥提醒，並請藥師確認安排。",double:"重點是先確認是否重複服藥；若已誤服或有不適，應立即諮詢醫療人員。",night:"重點是安排夜間照顧替手、作息評估及家屬休息時間。",daytime:"重點是評估白天替代照顧與長照服務。",daycare:"白天需要人力照顧時，優先了解日間照顧而非一般活動。",past:"已有迷路經驗，應先建立協尋與緊急聯絡計畫。",fall:"重點是檢視行走安全、浴廁、照明及動線。",fire:"如涉及瓦斯、用火與火災危險，請優先檢視消防安全。",severe:"認知改變已影響安全或生活，建議及早安排專業評估。"};
+if(extras[detail]){const x=document.createElement("div");x.className="card";x.textContent="依您的回答，優先考慮："+extras[detail];r.append(x)}
+const p=document.createElement("h3");p.textContent="建議連結的生活節點";r.append(p);
+d.nodes.forEach((n,i)=>{const c=document.createElement("div");c.className="card";const desc=nodeDefs.find(x=>x[0]===n);const head=document.createElement("h3");head.textContent=(i+1)+". "+n;const body=document.createElement("p");body.textContent=desc?desc[1]:"";c.append(head,body);r.append(c)});
+const h3=document.createElement("h3");h3.textContent="建議下一步";r.append(h3);const ul=document.createElement("ul");d.tips.forEach(s=>{const li=document.createElement("li");li.textContent=s;ul.append(li)});r.append(ul);
+const contact=document.createElement("div");contact.className="card";contact.innerHTML="<strong>可用的初步求助管道</strong><p>后里區衛生所：<a href='tel:0425562048'>04-2556-2048</a><br>長照服務專線：<a href='tel:1966'>1966</a><br>緊急報案：<a href='tel:110'>110</a>｜消防救護：<a href='tel:119'>119</a></p>";r.append(contact);
+const note=document.createElement("p");note.className="sub";note.textContent="提醒：這是規則式導航，不是即時 AI 聊天或正式轉介；后里合作單位名冊、服務時間、名額與資格尚待核對。";r.append(note)}
+const patterns=[
+["medication",/吃藥|服藥|藥袋|藥物|藥師|忘記.*藥|重複吃藥/],
+["safety",/走失|迷路|找不到家|不見了|找不到人|外出找不到|一直出門/],
+["behavior",/不睡|睡不好|半夜|日夜顛倒|暴躁|生氣|幻覺|妄想|抗拒|吵鬧|情緒/],
+["family",/喘息|照顧.*累|壓力|沒人幫|沒人顧|撐不住|輪流|照顧者/],
+["environment",/扶手|防跌|浴室滑|環境改善|無障礙|火災|瓦斯|門檻/],
+["care",/洗澡|穿衣|如廁|大小便|吃飯|長照|居家服務|居服|日照|輔具|輪椅|移位/],
+["activity",/活動|據點|課程|共餐|陪伴|社交|白天無聊/],
+["memory",/記憶|失智|忘東忘西|健忘|認知|重複問/]
 ];
-let selected="",step=0;
-function setChoices(items,callback){
-const el=document.getElementById("choices");el.innerHTML="";
-items.forEach(([label,key])=>{
-const b=document.createElement("button");
-b.textContent=label;b.onclick=()=>callback(key);
-el.appendChild(b);
-});
-}
-function start(){
-selected="";step=0;
-document.getElementById("question").innerHTML=
-"您好！請問家人目前遇到什麼困難？<br>請選擇最接近的生活情境。";
-document.getElementById("results").hidden=true;
-document.getElementById("typing").hidden=false;
-document.getElementById("freeText").value="";
-setChoices(menu,selectIssue);
-}
-function selectIssue(key){
-selected=key;step=1;
-document.getElementById("typing").hidden=true;
-document.getElementById("question").textContent=
-"我了解了。請問家人目前生活上需要多少協助？";
-setChoices([
-["大多可以自己完成生活活動","independent"],
-["有些事情需要家人幫忙","partial"],
-["大部分事情都需要協助","dependent"],
-["目前不清楚","unknown"]
-],chooseSupport);
-}
-function chooseSupport(level){
-step=2;
-document.getElementById("question").textContent=
-"謝謝您的說明。以下為您整理適合的后里生活節點與資源方向。";
-document.getElementById("choices").innerHTML="";
-const d=data[selected];
-const result=document.getElementById("results");
-result.hidden=false;result.innerHTML="";
-const title=document.createElement("h2");
-title.textContent="🌼 初步推薦："+d.name;result.append(title);
-const subtitle=document.createElement("p");
-subtitle.textContent="建議優先連結的生活節點：";result.append(subtitle);
-d.nodes.forEach((node,i)=>{
-const card=document.createElement("div");card.className="card";
-const strong=document.createElement("strong");
-strong.textContent=(i+1)+". "+node;
-card.append(strong);result.append(card);
-});
-const heading=document.createElement("h3");
-heading.textContent="建議您接下來這樣做";result.append(heading);
-const ul=document.createElement("ul");
-d.tips.forEach(t=>{
-const li=document.createElement("li");li.textContent=t;ul.append(li);
-});
-if(level==="dependent"&&selected!=="care"){
-const li=document.createElement("li");
-li.textContent="生活需要較多協助，建議同步了解長照需求評估。";
-ul.append(li);
-}
-result.append(ul);
-const contact=document.createElement("div");
-contact.className="card";
-contact.innerHTML=
-"<strong>☎ 常用聯絡方式</strong><p>長照服務：<a href='tel:1966'>1966</a><br>"+
-"后里區衛生所：<a href='tel:0425562048'>04-2556-2048</a><br>"+
-"緊急報案：<a href='tel:110'>110</a><br>"+
-"消防救護：<a href='tel:119'>119</a></p>";
-result.append(contact);
-const note=document.createElement("small");
-note.textContent="註：目前為展示版。實際合作單位、服務資格及可用名額須另外確認。";
-result.append(note);
-}
-function searchText(){
-const t=document.getElementById("freeText").value.trim();
-if(!t){alert("請先輸入您遇到的問題");return}
-let key="memory";
-if(/藥|服藥/.test(t))key="medication";
-else if(/走失|迷路|跌倒|找不到家/.test(t))key="safety";
-else if(/累|喘息|壓力|撐不住/.test(t))key="family";
-else if(/活動|據點|課程|共餐/.test(t))key="activity";
-else if(/洗澡|吃飯|照顧|長照|居服/.test(t))key="care";
-else if(!/忘|記憶|認知|失智/.test(t)){
-document.getElementById("question").textContent=
-"目前無法準確判斷，請選擇下方最接近的情境。";
-return;
-}
-selectIssue(key);
-}
-start();
+$("custom").addEventListener("submit",e=>{e.preventDefault();const t=$("freeText").value.trim();if(!t)return;const found=patterns.filter(([,re])=>re.test(t));if(!found.length){$("question").textContent="目前無法可靠辨識您的問題，請從下方選擇較接近的情況；不會將未知問題直接當成記憶問題。";return}select(found[0][0]);if(found.length>1){$("question").textContent=categories[selected].question+"（您的敘述包含多種需求；先處理其中一項，完成後可重新查詢其他問題。）"}});
+$("reset").addEventListener("click",start);start();
+})();
 </script>
-</body>
-</html>
+</body></html>
