@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>安心憶起・微笑后里｜失智友善資源導航</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f3;color:#283a32;font-family:"Microsoft JhengHei",sans-serif}
+header{background:#39765b;color:white;padding:28px 16px;text-align:center}
+h1{margin:0;font-size:26px}
+header p{margin:10px 0 0}
+main{max-width:760px;margin:auto;padding:20px 15px}
+.panel{background:white;border-radius:17px;padding:20px;margin-bottom:15px;box-shadow:0 2px 12px #26382b12}
+.message{background:#edf5ed;border-radius:14px;padding:15px;line-height:1.8;margin-bottom:15px}
+button{width:100%;border:1px solid #cdded2;border-radius:11px;background:white;padding:14px;margin:5px 0;text-align:left;font-size:16px;color:#283a32;cursor:pointer}
+button:hover{background:#e9f4ed}
+.primary{background:#39765b;color:white;text-align:center}
+input{width:100%;padding:14px;font-size:16px;border:1px solid #b9ccbf;border-radius:10px}
+.card{padding:15px;margin:10px 0;border-left:5px solid #39765b;background:#f5f8f5;border-radius:8px;line-height:1.8}
+small{color:#65756b}
+a{color:#276c4a}
+footer{text-align:center;padding:20px;color:#63736a;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+<h1>🌼 安心憶起・微笑后里</h1>
+<p>后里失智友善社區｜家庭資源導航</p>
+</header>
+<main>
+<section class="panel">
+<div class="message" id="question">
+您好！請問家人目前遇到什麼困難？<br>
+您可以選擇下方情境，讓我幫您尋找適合的資源。
+</div>
+<div id="choices"></div>
+<div id="typing">
+<input id="freeText" placeholder="例如：媽媽最近常常忘記吃藥">
+<button class="primary" onclick="searchText()">送出問題</button>
+</div>
+</section>
+<section class="panel" id="results" hidden></section>
+<button onclick="start()">↻ 重新查詢</button>
+</main>
+<footer>
+115年臺中市后里失智友善社區營造｜資源導航展示版<br>
+本網站提供初步資訊，非醫療診斷或正式轉介。
+</footer>
+<script>
+const data={
+memory:{
+name:"記憶與認知問題",
+nodes:["衛生所與醫療健康節點","社區關懷及認知促進節點"],
+tips:["記錄記憶改變的情況及對日常生活的影響","可先聯絡衛生所，諮詢認知評估與就醫途徑","需要時進一步詢問失智共同照護資源"]},
+medication:{
+name:"用藥與健康安全",
+nodes:["藥局及用藥安全節點","衛生所與醫療健康節點"],
+tips:["請藥師協助檢視用藥方式及服藥提醒工具","不要自行更改處方藥的劑量","如有突然意識改變或嚴重不適，立即就醫"]},
+care:{
+name:"日常生活與長照需求",
+nodes:["社會福利與照顧服務節點","衛生所與醫療健康節點"],
+tips:["可撥1966詢問長照資格與需求評估","視需要詢問居家服務、日間照顧或喘息服務"]},
+safety:{
+name:"外出、走失及安全",
+nodes:["警政安全節點","鄰里與友善商家節點","消防及居家安全節點"],
+tips:["先建立家人的緊急聯絡資訊與安全支持網絡","發生走失時應及早報警，提供近照及最後出現位置","檢視住家環境、動線及跌倒風險"]},
+activity:{
+name:"社區活動與友善參與",
+nodes:["社區活動及關懷據點","鄰里支持節點","友善商家及生活參與節點"],
+tips:["可詢問后里在地社區據點的活動資訊","依長輩能力、意願及交通需求選擇合適活動"]},
+family:{
+name:"家屬支持及喘息需求",
+nodes:["社會福利與照顧服務節點","社區關懷及支持節點"],
+tips:["可撥1966詢問喘息服務及照顧資源","尋求家庭照顧者支持、照顧諮詢及親友協助"]}
+};
+const menu=[
+["🧠 常常忘東忘西","memory"],
+["💊 忘記吃藥或吃錯藥","medication"],
+["🏠 洗澡、吃飯需要人幫忙","care"],
+["🚶 擔心走失或跌倒","safety"],
+["🌿 想找社區活動","activity"],
+["💛 家屬照顧得很累","family"]
+];
+let selected="",step=0;
+function setChoices(items,callback){
+const el=document.getElementById("choices");el.innerHTML="";
+items.forEach(([label,key])=>{
+const b=document.createElement("button");
+b.textContent=label;b.onclick=()=>callback(key);
+el.appendChild(b);
+});
+}
+function start(){
+selected="";step=0;
+document.getElementById("question").innerHTML=
+"您好！請問家人目前遇到什麼困難？<br>請選擇最接近的生活情境。";
+document.getElementById("results").hidden=true;
+document.getElementById("typing").hidden=false;
+document.getElementById("freeText").value="";
+setChoices(menu,selectIssue);
+}
+function selectIssue(key){
+selected=key;step=1;
+document.getElementById("typing").hidden=true;
+document.getElementById("question").textContent=
+"我了解了。請問家人目前生活上需要多少協助？";
+setChoices([
+["大多可以自己完成生活活動","independent"],
+["有些事情需要家人幫忙","partial"],
+["大部分事情都需要協助","dependent"],
+["目前不清楚","unknown"]
+],chooseSupport);
+}
+function chooseSupport(level){
+step=2;
+document.getElementById("question").textContent=
+"謝謝您的說明。以下為您整理適合的后里生活節點與資源方向。";
+document.getElementById("choices").innerHTML="";
+const d=data[selected];
+const result=document.getElementById("results");
+result.hidden=false;result.innerHTML="";
+const title=document.createElement("h2");
+title.textContent="🌼 初步推薦："+d.name;result.append(title);
+const subtitle=document.createElement("p");
+subtitle.textContent="建議優先連結的生活節點：";result.append(subtitle);
+d.nodes.forEach((node,i)=>{
+const card=document.createElement("div");card.className="card";
+const strong=document.createElement("strong");
+strong.textContent=(i+1)+". "+node;
+card.append(strong);result.append(card);
+});
+const heading=document.createElement("h3");
+heading.textContent="建議您接下來這樣做";result.append(heading);
+const ul=document.createElement("ul");
+d.tips.forEach(t=>{
+const li=document.createElement("li");li.textContent=t;ul.append(li);
+});
+if(level==="dependent"&&selected!=="care"){
+const li=document.createElement("li");
+li.textContent="生活需要較多協助，建議同步了解長照需求評估。";
+ul.append(li);
+}
+result.append(ul);
+const contact=document.createElement("div");
+contact.className="card";
+contact.innerHTML=
+"<strong>☎ 常用聯絡方式</strong><p>長照服務：<a href='tel:1966'>1966</a><br>"+
+"后里區衛生所：<a href='tel:0425562048'>04-2556-2048</a><br>"+
+"緊急報案：<a href='tel:110'>110</a><br>"+
+"消防救護：<a href='tel:119'>119</a></p>";
+result.append(contact);
+const note=document.createElement("small");
+note.textContent="註：目前為展示版。實際合作單位、服務資格及可用名額須另外確認。";
+result.append(note);
+}
+function searchText(){
+const t=document.getElementById("freeText").value.trim();
+if(!t){alert("請先輸入您遇到的問題");return}
+let key="memory";
+if(/藥|服藥/.test(t))key="medication";
+else if(/走失|迷路|跌倒|找不到家/.test(t))key="safety";
+else if(/累|喘息|壓力|撐不住/.test(t))key="family";
+else if(/活動|據點|課程|共餐/.test(t))key="activity";
+else if(/洗澡|吃飯|照顧|長照|居服/.test(t))key="care";
+else if(!/忘|記憶|認知|失智/.test(t)){
+document.getElementById("question").textContent=
+"目前無法準確判斷，請選擇下方最接近的情境。";
+return;
+}
+selectIssue(key);
+}
+start();
+</script>
+</body>
+</html>
