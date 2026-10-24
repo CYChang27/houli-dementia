@@ -12,7 +12,11 @@
   {
     "name": "后里消防",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區文明路146號",
+    "phone": "04-2556-2600",
+    "source": "https://www.fire.taichung.gov.tw/content/index.asp?Parser=7%2C3%2C101%2C21%2C%2C%2C%2C%2C1",
+    "verification": "已查官方資訊"
   },
   {
     "name": "后里消防婦宣分隊",
@@ -22,22 +26,38 @@
   {
     "name": "后里區公所",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區公安路84號",
+    "phone": "04-2556-2116",
+    "source": "https://www.houli.taichung.gov.tw/",
+    "verification": "已查官方資訊"
   },
   {
     "name": "后里區戶政",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區公安路90號",
+    "phone": "04-2556-2241",
+    "source": "https://www.taichung.gov.tw/1313819/post",
+    "verification": "已查官方資訊"
   },
   {
     "name": "后里清潔隊",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區甲后路一段958號",
+    "phone": "04-2557-1966",
+    "source": "https://www.epb.taichung.gov.tw/17325/17181/605251/post",
+    "verification": "已查官方資訊"
   },
   {
     "name": "后里農會",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區民生路268號",
+    "phone": "04-2556-5116",
+    "source": "https://www.houlifa.org.tw/contact?sub=1",
+    "verification": "已查官方資訊"
   },
   {
     "name": "后里電信局",
@@ -47,7 +67,11 @@
   {
     "name": "后里警察局",
     "category": "公共治理與安全網絡",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區公安路88號",
+    "phone": "04-2556-2037",
+    "source": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1362326648225009664&module=liaison&type=s",
+    "verification": "已查官方資訊"
   },
   {
     "name": "警察志工",
@@ -127,7 +151,11 @@
   {
     "name": "東亞藥局",
     "category": "健康醫療與藥事",
-    "role": "依原始功能分類，待確認具體合作角色"
+    "role": "依原始功能分類，待確認具體合作角色",
+    "address": "臺中市后里區民生路123號",
+    "phone": "04-2557-0225",
+    "source": "https://www.tmip.com.tw/product-detail-3752993.html",
+    "verification": "第三方待複核"
   },
   {
     "name": "保仁藥局",
@@ -613,5 +641,77 @@
     "name": "麗寶樂園度假區",
     "category": "運動休閒與社會參與",
     "role": "依原始功能分類，待確認具體合作角色"
+  },
+  {
+    "name": "后里區衛生所",
+    "category": "健康醫療與藥事",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區公安路86號",
+    "phone": "04-2556-2048",
+    "source": "https://www.houliphc.taichung.gov.tw/1769476/1769477/1769482/1800965/post",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "后里分駐所",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區公安路88號",
+    "phone": "04-2556-2037",
+    "source": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1362326648225009664&module=liaison&type=s",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "月眉派出所",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區三月路19號",
+    "phone": "04-2556-2384",
+    "source": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1362326648225009664&module=liaison&type=s",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "泰安派出所",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區安眉路1號",
+    "phone": "04-2556-2340",
+    "source": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1362326648225009664&module=liaison&type=s",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "義里派出所",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區三豐路839號",
+    "phone": "04-2556-2333",
+    "source": "https://www.npa.gov.tw/ch/app/data/doc?detailNo=1362326648225009664&module=liaison&type=s",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "后里區農會義里辦事處",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區甲后路一段363號",
+    "phone": "04-2556-0990",
+    "source": "https://www.houlifa.org.tw/contact?sub=1",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "后里區農會公館辦事處",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區三豐路五段268號",
+    "phone": "04-2556-2045",
+    "source": "https://www.houlifa.org.tw/contact?sub=1",
+    "verification": "已查官方資訊"
+  },
+  {
+    "name": "后里區農會眉山辦事處",
+    "category": "公共治理與安全網絡",
+    "role": "補充在地聯絡節點",
+    "address": "臺中市后里區甲后路二段363號",
+    "phone": "04-2556-3723",
+    "source": "https://www.houlifa.org.tw/contact?sub=1",
+    "verification": "已查官方資訊"
   }
 ]
