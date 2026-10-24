@@ -35,7 +35,7 @@ a{color:#205d41}footer{font-size:13px;text-align:center;padding:16px;color:#6371
 </section>
 <section id="result" class="panel" hidden aria-live="polite"></section>
 <button id="reset" type="button">↻ 重新查詢其他問題</button>
-<section class="panel"><h2>認識八類生活支持節點</h2><p class="sub">以下是本網站使用的八類資源導航分類，不代表已逐一確認的合作單位名冊。</p><div id="nodeList" class="choices"></div></section>
+<section class="panel" id="localContacts"><h2>📍 后里警政與消防聯絡資訊</h2><p class="sub">查詢一般諮詢或防災資訊請聯絡各單位；正在走失、遭遇危險或有緊急救護需求，請優先撥 110／119。</p><div id="officialContacts"></div><p class="sub">資料參考：內政部警政署及臺中市政府消防局官方公開資訊。更新核對：2026年10月。</p></section><section class="panel"><h2>認識八類生活支持節點</h2><p class="sub">以下是本網站使用的八類資源導航分類，不代表已逐一確認的合作單位名冊。</p><div id="nodeList" class="choices"></div></section>
 </main>
 <footer>115年臺中市后里失智友善社區營造｜展示與試用版<br>不蒐集或傳送輸入內容；不提供醫療診斷、資格認定或正式轉介。請勿輸入姓名、身分證字號及其他可識別個資。</footer>
 <script>
@@ -51,7 +51,16 @@ behavior:{label:"🌙 晚上不睡、情緒或行為改變",title:"情緒與行�
 environment:{label:"🏡 居家防跌、環境改善",title:"居家安全與生活環境",question:"家裡哪個情況最需要改善？",answers:[["浴室濕滑、跨門檻","bath"],["走道雜物、燈光不足","path"],["需要扶手或輔具","assist"],["火災、瓦斯或用火安全","fire"]],nodes:["消防救護","社政照顧","醫療健康"],tips:["優先排除濕滑、障礙物與照明不足等風險。","如需輔具或無障礙改善，可詢問長照評估與補助條件。","消防居家安全事項可向消防單位諮詢。"]}
 };
 const nodeDefs=[["醫療健康","認知、健康評估與就醫方向"],["用藥安全","藥師諮詢與安全服藥"],["警政安全","走失預防、報案與協尋"],["消防救護","救護、用火與環境安全"],["社政照顧","長照評估、照顧與喘息"],["鄰里守望","鄰里關懷及生活協助"],["社區參與","社區活動、據點與共融"],["友善商家","日常消費與社區友善支持"]];
+const offices=[
+{name:"月眉派出所",phone:"04-2556-2384",address:"臺中市后里區三月路19號"},
+{name:"泰安派出所",phone:"04-2556-2340",address:"臺中市后里區安眉路1號"},
+{name:"義里派出所",phone:"04-2556-2333",address:"臺中市后里區三豐路三段839號"},
+{name:"后里分駐所",phone:"04-2556-2037",address:"臺中市后里區公安路88號"},
+{name:"后里消防分隊（第五大隊）",phone:"04-2556-2600",address:"臺中市后里區文明路146號"}
+];
 const $=id=>document.getElementById(id); let selected=null,detail=null,secondary=null,rawQuestion="";
+function officeCard(o){const c=document.createElement("div");c.className="card";const h=document.createElement("h3");h.textContent=o.name;const a=document.createElement("p");a.textContent=o.address;const tel=document.createElement("a");tel.href="tel:"+o.phone.replace(/[^0-9]/g,"");tel.textContent="☎ "+o.phone;const space=document.createElement("span");space.textContent="　";const map=document.createElement("a");map.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(o.address);map.target="_blank";map.rel="noopener noreferrer";map.textContent="查看地圖 ↗";c.append(h,a,tel,space,map);return c}
+offices.forEach(o=>$("officialContacts").append(officeCard(o)));
 nodeDefs.forEach(([name,desc])=>{const d=document.createElement("div");d.className="card";d.textContent=name+"｜"+desc;$("nodeList").append(d)});
 function options(answers,cb){$("choices").replaceChildren();answers.forEach(([label,key])=>{const b=document.createElement("button");b.type="button";b.textContent=label;b.onclick=()=>cb(key);$("choices").append(b)})}
 function setProgress(n){$("status").textContent=n===1?"第 1 步：描述問題":n===2?"第 2 步：確認情況":"第 3 步：資源建議";$("progress").style.width=n===1?"33%":n===2?"66%":"100%"}
@@ -88,6 +97,7 @@ d.nodes.forEach((n,i)=>{const c=document.createElement("div");c.className="card"
 const h3=document.createElement("h3");h3.textContent="建議下一步";r.append(h3);const ul=document.createElement("ul");d.tips.forEach(s=>{const li=document.createElement("li");li.textContent=s;ul.append(li)});r.append(ul);
 const contact=document.createElement("div");contact.className="card";contact.innerHTML="<strong>可用的初步求助管道</strong><p>后里區衛生所：<a href='tel:0425562048'>04-2556-2048</a><br>長照服務專線：<a href='tel:1966'>1966</a><br>緊急報案：<a href='tel:110'>110</a>｜消防救護：<a href='tel:119'>119</a></p>";r.append(contact);
 const back=document.createElement("button");back.type="button";back.textContent="↩ 回到問題選擇";back.onclick=start;r.append(back);
+if(selected==="safety"||selected==="environment"){const officeHeader=document.createElement("h3");officeHeader.textContent="后里在地警消聯絡方式";r.append(officeHeader);(selected==="safety"?offices:offices.slice(-1)).forEach(o=>r.append(officeCard(o)));}
 const note=document.createElement("p");note.className="sub";note.textContent="提醒：這是規則式導航，不是即時 AI 聊天或正式轉介；后里合作單位名冊、服務時間、名額與資格尚待核對。";r.append(note)}
 const patterns=[
 ["medication",/吃藥|服藥|藥袋|藥物|藥師|忘記.*藥|重複吃藥/],
