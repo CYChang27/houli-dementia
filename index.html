@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="后里失智友善生活共照網，協助長者與家屬依生活照顧困難找到可聯絡的在地支持單位。">
   <title>從生活圈到支持圈｜后里失智友善生活共照網</title>
-  <link rel="stylesheet" href="styles.css?v=20261112-19">
+  <link rel="stylesheet" href="styles.css?v=20261112-20">
 </head>
 <body>
   <a class="skip-link" href="#main">跳到主要內容</a>
@@ -14,11 +14,19 @@
       <span class="brand-round" aria-hidden="true">后</span>
       <span><strong>后里失智友善生活共照網</strong><small>從生活圈到支持圈</small></span>
     </a>
-    <nav aria-label="主要選單">
-      <a href="#line">生活求助指引</a>
-      <a href="#nodes">八大節點</a>
-      <a href="#directory">在地單位</a>
-    </nav>
+    <div class="header-tools">
+      <nav aria-label="主要選單">
+        <a href="#line">生活求助指引</a>
+        <a href="#nodes">八大節點</a>
+        <a href="#directory">在地單位</a>
+      </nav>
+      <div class="font-controls" role="group" aria-label="調整文字大小">
+        <span>字體</span>
+        <button id="font-smaller" type="button" aria-label="縮小文字">A−</button>
+        <button id="font-larger" type="button" aria-label="放大文字">A＋</button>
+        <span id="font-status" class="font-status" aria-live="polite">100%</span>
+      </div>
+    </div>
   </header>
 
   <main id="main">
@@ -67,7 +75,7 @@
           <a class="mobile-directory-link" href="#directory"><span>直接搜尋后里在地單位</span><b aria-hidden="true">→</b></a>
         </div>
         <article id="route-result" class="route-result" aria-live="polite" hidden>
-          <div class="result-topline"><span>建議處理方式</span><div class="result-tools"><button id="back-to-situations" class="back-to-situations" type="button">返回情境選擇</button><b id="result-code" hidden></b></div></div>
+          <div class="result-topline"><span>建議處理方式</span><div class="result-tools"><button id="back-to-situations" class="back-to-situations" type="button">回到問題選擇</button><b id="result-code" hidden></b></div></div>
           <p id="result-kicker" class="result-kicker"></p>
           <h3 id="result-title"></h3>
           <p id="result-description" class="result-description"></p>
@@ -86,8 +94,9 @@
             <div><h4>您可以先這樣做</h4><ol id="result-steps"></ol></div>
             <div><h4>可能協助的生活節點</h4><div id="result-nodes" class="result-node-list"></div></div>
           </div>
-          <div class="recommended-head"><h4>可直接聯絡的單位</h4><button id="show-all-matched" type="button">查看這類在地單位</button></div>
+          <div class="recommended-head"><h4 id="result-resource-heading">可直接聯絡的單位</h4><button id="show-all-matched" type="button">查看這類在地單位</button></div>
           <div id="result-resources" class="recommended-list"></div>
+          <button id="back-to-situations-bottom" class="back-to-situations back-bottom" type="button">重新選擇問題</button>
         </article>
       </div>
     </section>
@@ -148,7 +157,7 @@
     <div><strong>后里失智友善生活共照網</strong><p>第17屆金所獎互動網站｜從生活圈到支持圈</p></div>
     <div><p>資料更新：115年11月</p><p>本網站提供資源查詢，不取代醫療診斷、正式評估或緊急服務。</p></div>
   </footer>
-  <script src="app.js?v=20261112-18"></script>
+  <script src="app.js?v=20261112-19"></script>
 </body>
 </html>
 
