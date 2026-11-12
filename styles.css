@@ -428,3 +428,5 @@ footer p{margin:2px 0;font-size:12px}
   .result-direct{grid-template-columns:1fr}
   .back-to-situations{min-height:40px;padding:8px 12px}
 }
+
+.result-columns[hidden]{display:none}
