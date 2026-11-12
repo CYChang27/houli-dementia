@@ -12,7 +12,18 @@
     "contact": "社會課/林課長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [
+      "start",
+      "welfare"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r002",
@@ -27,7 +38,17 @@
     "contact": "張秘書",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [
+      "welfare"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r003",
@@ -42,7 +63,17 @@
     "contact": "王所長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [
+      "safety"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r004",
@@ -57,7 +88,17 @@
     "contact": "關隊長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [
+      "safety"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r005",
@@ -72,7 +113,15 @@
     "contact": "曾隊長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r006",
@@ -87,7 +136,15 @@
     "contact": "陳總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r007",
@@ -102,7 +159,15 @@
     "contact": "何站長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r008",
@@ -117,7 +182,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r009",
@@ -132,7 +205,15 @@
     "contact": "王主任",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r010",
@@ -147,7 +228,15 @@
     "contact": "劉處長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "公共服務"
+    ],
+    "useFor": [],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r011",
@@ -162,7 +251,18 @@
     "contact": "李站長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "福利支持"
+    ],
+    "useFor": [
+      "welfare",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r012",
@@ -177,7 +277,18 @@
     "contact": "塗師姐",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "福利支持"
+    ],
+    "useFor": [
+      "welfare",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r013",
@@ -192,7 +303,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "福利支持"
+    ],
+    "useFor": [
+      "welfare",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r014",
@@ -207,7 +329,18 @@
     "contact": "張牧師",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "福利支持"
+    ],
+    "useFor": [
+      "welfare",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r015",
@@ -222,7 +355,18 @@
     "contact": "潘牧師",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "福利支持"
+    ],
+    "useFor": [
+      "welfare",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r016",
@@ -237,7 +381,18 @@
     "contact": "王理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r017",
@@ -252,7 +407,18 @@
     "contact": "張理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r018",
@@ -267,7 +433,18 @@
     "contact": "張總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r019",
@@ -282,7 +459,18 @@
     "contact": "張理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r020",
@@ -297,7 +485,18 @@
     "contact": "陳總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r021",
@@ -312,7 +511,18 @@
     "contact": "張總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r022",
@@ -328,7 +538,19 @@
     "contact": "周理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r023",
@@ -343,7 +565,18 @@
     "contact": "張理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r024",
@@ -358,7 +591,18 @@
     "contact": "林總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r025",
@@ -373,7 +617,18 @@
     "contact": "李理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r026",
@@ -388,7 +643,18 @@
     "contact": "詹總幹事",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r027",
@@ -404,7 +670,19 @@
     "contact": "王理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r028",
@@ -420,7 +698,19 @@
     "contact": "謝理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r029",
@@ -436,7 +726,19 @@
     "contact": "王總幹事",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r030",
@@ -451,7 +753,18 @@
     "contact": "吳理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r031",
@@ -466,7 +779,18 @@
     "contact": "王理事長",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r032",
@@ -482,7 +806,19 @@
     "contact": "劉理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r033",
@@ -498,7 +834,19 @@
     "contact": "林理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r034",
@@ -513,7 +861,19 @@
     "contact": "潘牧師",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r035",
@@ -528,7 +888,19 @@
     "contact": "蘇社工",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r036",
@@ -543,7 +915,19 @@
     "contact": "張理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r037",
@@ -558,7 +942,19 @@
     "contact": "蔡理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r038",
@@ -573,7 +969,19 @@
     "contact": "柯理事長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r039",
@@ -588,7 +996,19 @@
     "contact": "羅里長",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r040",
@@ -603,7 +1023,19 @@
     "contact": "勞小姐",
     "carePoint": true,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷",
+      "活力參與"
+    ],
+    "useFor": [
+      "activity",
+      "caregiver"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
   },
   {
     "id": "r041",
@@ -618,7 +1050,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r042",
@@ -633,7 +1075,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r043",
@@ -648,7 +1100,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r044",
@@ -663,7 +1125,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r045",
@@ -678,7 +1150,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r046",
@@ -693,7 +1175,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r047",
@@ -708,7 +1200,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r048",
@@ -723,7 +1225,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r049",
@@ -738,7 +1250,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r050",
@@ -753,7 +1275,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r051",
@@ -768,7 +1300,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r052",
@@ -783,7 +1325,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r053",
@@ -798,7 +1350,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r054",
@@ -813,7 +1375,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r055",
@@ -828,7 +1400,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r056",
@@ -843,7 +1425,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "用藥安全"
+    ],
+    "useFor": [
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r057",
@@ -858,7 +1450,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r058",
@@ -873,7 +1476,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r059",
@@ -888,7 +1502,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r060",
@@ -903,7 +1528,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r061",
@@ -918,7 +1554,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r062",
@@ -933,7 +1580,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r063",
@@ -948,7 +1606,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r064",
@@ -963,7 +1632,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r065",
@@ -978,7 +1658,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r066",
@@ -993,7 +1684,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r067",
@@ -1008,7 +1710,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "medicine",
+      "memory"
+    ],
+    "accessType": "direct",
+    "priority": 2,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r068",
@@ -1023,7 +1736,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r069",
@@ -1038,7 +1762,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r070",
@@ -1053,7 +1788,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r071",
@@ -1068,7 +1814,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r072",
@@ -1083,7 +1840,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r073",
@@ -1098,7 +1866,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r074",
@@ -1113,7 +1892,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r075",
@@ -1128,7 +1918,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r076",
@@ -1143,7 +1944,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r077",
@@ -1158,7 +1970,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r078",
@@ -1173,7 +1996,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r079",
@@ -1188,7 +2022,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r080",
@@ -1203,7 +2048,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "健康就醫"
+    ],
+    "useFor": [
+      "memory",
+      "medicine"
+    ],
+    "accessType": "direct",
+    "priority": 3,
+    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
   },
   {
     "id": "r081",
@@ -1218,7 +2074,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r082",
@@ -1233,7 +2100,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r083",
@@ -1248,7 +2126,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r084",
@@ -1263,7 +2152,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r085",
@@ -1278,7 +2178,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r086",
@@ -1293,7 +2204,18 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "長照照顧"
+    ],
+    "useFor": [
+      "care",
+      "caregiver"
+    ],
+    "accessType": "direct",
+    "priority": 1,
+    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
   },
   {
     "id": "r087",
@@ -1308,7 +2230,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
   },
   {
     "id": "r088",
@@ -1323,7 +2255,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [
+      "safety"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
   },
   {
     "id": "r089",
@@ -1338,7 +2280,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [
+      "safety"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
   },
   {
     "id": "r090",
@@ -1353,7 +2305,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [
+      "safety"
+    ],
+    "accessType": "community",
+    "priority": 2,
+    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
   },
   {
     "id": "r091",
@@ -1368,7 +2330,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r092",
@@ -1383,7 +2353,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r093",
@@ -1398,7 +2376,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r094",
@@ -1413,7 +2399,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r095",
@@ -1428,7 +2422,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r096",
@@ -1443,7 +2445,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r097",
@@ -1458,7 +2468,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r098",
@@ -1473,7 +2491,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r099",
@@ -1488,7 +2514,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r100",
@@ -1503,7 +2537,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r101",
@@ -1518,7 +2560,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "生活場域"
+    ],
+    "useFor": [],
+    "accessType": "community",
+    "priority": 3,
+    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
   },
   {
     "id": "r102",
@@ -1533,7 +2583,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
   },
   {
     "id": "r103",
@@ -1548,7 +2608,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
   },
   {
     "id": "r104",
@@ -1563,7 +2633,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
   },
   {
     "id": "r105",
@@ -1578,7 +2658,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
   },
   {
     "id": "r106",
@@ -1593,7 +2683,17 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": true,
+    "nodes": [
+      "活力參與"
+    ],
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
   },
   {
     "id": "r107",
@@ -1608,7 +2708,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r108",
@@ -1623,7 +2731,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r109",
@@ -1638,7 +2754,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r110",
@@ -1653,7 +2777,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r111",
@@ -1668,7 +2800,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r112",
@@ -1683,7 +2823,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r113",
@@ -1698,7 +2846,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r114",
@@ -1713,7 +2869,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r115",
@@ -1728,7 +2892,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r116",
@@ -1743,7 +2915,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r117",
@@ -1758,7 +2938,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r118",
@@ -1773,7 +2961,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r119",
@@ -1788,7 +2984,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r120",
@@ -1803,7 +3007,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r121",
@@ -1818,7 +3030,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r122",
@@ -1833,7 +3053,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r123",
@@ -1848,7 +3076,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r124",
@@ -1863,7 +3099,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r125",
@@ -1878,7 +3122,15 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   },
   {
     "id": "r126",
@@ -1893,6 +3145,14 @@
     "contact": "",
     "carePoint": false,
     "verified": false,
-    "officialUrl": ""
+    "officialUrl": "",
+    "publicAccess": false,
+    "nodes": [
+      "社區關懷"
+    ],
+    "useFor": [],
+    "accessType": "network",
+    "priority": 4,
+    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
   }
 ]
