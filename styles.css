@@ -439,3 +439,120 @@ html{scroll-behavior:auto}
 .result-code{display:none!important}
 
 #result-code{display:none!important}
+
+/* 清楚的求助流程：桌機保留計畫架構，手機只呈現民眾下一步 */
+.mobile-directory-link{display:none}
+.result-triage[hidden]{display:none}
+.result-triage{margin-top:22px}
+.triage-question{margin:0 0 12px;color:var(--ink);font-size:18px;font-weight:900}
+.triage-emergency{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.triage-emergency a{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 18px;color:#fff;background:#a8403e;border-radius:14px;text-decoration:none;box-shadow:0 8px 18px rgba(120,38,35,.14)}
+.triage-emergency strong,.triage-emergency small{display:block}
+.triage-emergency small{margin-top:3px;color:#fff;font-size:13px;opacity:.9}
+.triage-emergency b{flex:0 0 auto;padding:8px 11px;color:#8f302f;background:#fff;border-radius:999px}
+.triage-divider{display:flex;align-items:center;gap:12px;margin:22px 0;color:var(--muted);font-size:13px;font-weight:900}
+.triage-divider::before,.triage-divider::after{content:"";height:1px;flex:1;background:#d8dfdc}
+.triage-options{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.triage-options button{display:grid;grid-template-columns:40px 1fr 20px;gap:10px;align-items:center;min-height:64px;padding:10px 13px;color:var(--ink);background:#fff;border:1px solid #c9d4d0;border-radius:12px;text-align:left;cursor:pointer}
+.triage-options button:hover{border-color:var(--situation-color);box-shadow:0 5px 14px rgba(67,87,84,.08)}
+.triage-options .situation-icon{width:38px;height:38px;margin:0;color:#fff;background:var(--situation-color)}
+.triage-options button>b{color:var(--situation-color);font-size:24px}
+.situation:focus-visible,.triage-options button:focus-visible,.direct-card:focus-visible,.mobile-directory-link:focus-visible{outline:3px solid #d29b58;outline-offset:3px}
+
+@media(max-width:650px){
+  html{scroll-padding-top:70px}
+  body{background:#f6f3ed}
+  .site-header{min-height:64px;padding:9px 14px;background:#fffdf9;border-bottom-color:#d7dfdc}
+  .brand{gap:9px}
+  .brand-round{width:40px;height:40px;border-width:3px;font-size:18px}
+  .brand strong{font-size:15px;line-height:1.35}
+  .hero{display:none!important}
+  .journey-section{padding:18px 14px 48px}
+  .journey-section .section-title{margin:0 2px 17px}
+  .journey-section .section-title h2{margin:0;font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:27px;line-height:1.25;letter-spacing:-.02em}
+  .journey-section .section-title>p:last-child{margin:7px 0 0;color:#536866;font-size:15px;line-height:1.55}
+  .route-head{display:none}
+  .situation-list{display:grid;grid-template-columns:1fr;gap:9px}
+  .situation{display:grid;grid-template-columns:46px minmax(0,1fr) 20px;gap:12px;align-items:center;min-height:70px;padding:11px 13px;background:#fff;border:1px solid #cbd6d2;border-radius:13px;box-shadow:0 3px 10px rgba(42,66,63,.045)}
+  .situation::after{content:"›";position:static;display:block;width:auto;height:auto;color:var(--situation-color);background:transparent;font-size:28px;font-weight:500;line-height:1}
+  .situation:hover,.situation.active{background:#fff;border-color:var(--situation-color);box-shadow:0 5px 14px rgba(42,66,63,.08);transform:none}
+  .situation-icon{width:42px;height:42px;margin:0;color:#fff;background:var(--situation-color);border-radius:12px;font-size:17px;font-weight:900}
+  .situation.active .situation-icon{background:var(--situation-color)}
+  .situation .label-full,.situation small{display:none}
+  .situation .label-mobile{display:block;color:#253f43;font-size:17px;line-height:1.4;font-weight:900}
+  .situation[data-situation="start"]{margin-top:6px;background:#eef2f0;border-style:dashed;box-shadow:none}
+  .situation[data-situation="start"] .situation-icon{border-radius:50%}
+  .mobile-directory-link{display:flex;justify-content:space-between;align-items:center;min-height:52px;margin-top:13px;padding:12px 15px;color:#355c56;background:transparent;border:1px solid #9bb2aa;border-radius:12px;text-decoration:none;font-size:16px;font-weight:900}
+  .mobile-directory-link b{font-size:23px;line-height:1}
+
+  body.showing-result .journey-section{padding:0 0 38px}
+  body.showing-result .journey-section>.section-title,
+  body.showing-result .route-panel{display:none}
+  body.showing-result .journey-board{display:block;background:#fffdf9;border:0;border-radius:0;box-shadow:none}
+  body.showing-result .route-result{min-height:calc(100svh - 64px);margin:0;padding:16px 15px 42px;background:#fffdf9;border:0;border-radius:0;box-shadow:none;scroll-margin-top:64px}
+  .result-topline{display:block}
+  .result-topline>span{display:none}
+  .result-tools{display:block}
+  .back-to-situations{min-height:42px;padding:8px 12px;color:#355c56;background:#eef4f1;border:1px solid #a8beb6;border-radius:10px;font-size:14px}
+  .back-to-situations::before{content:"‹ ";font-size:20px;vertical-align:-1px}
+  .result-kicker{margin:22px 0 5px;color:#5a7770;font-size:13px;letter-spacing:.03em}
+  .route-result h3{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:27px;line-height:1.3;letter-spacing:-.02em}
+  .result-description{margin:10px 0 0;color:#4b6260;font-size:16px;line-height:1.65}
+  .result-direct{display:grid;grid-template-columns:1fr;gap:10px;margin:18px 0}
+  .direct-card{display:block;padding:15px;color:#fff;background:#356f61;border:0;border-radius:14px;box-shadow:0 7px 16px rgba(39,87,75,.14)}
+  .direct-card strong{font-size:18px;line-height:1.4}
+  .direct-card small{margin:4px 0 13px;color:#eef7f4;font-size:14px;line-height:1.55}
+  .direct-card b{display:block;width:100%;padding:11px 12px;color:#285a4e;background:#fff;border-radius:10px;text-align:center;font-size:16px}
+  .route-result[data-situation="safety"] .direct-card{background:#a8403e;box-shadow:0 7px 16px rgba(120,38,35,.14)}
+  .route-result[data-situation="safety"] .direct-card b{color:#913532}
+  .result-columns{margin:17px 0}
+  .result-columns>div{padding:15px;background:#edf3f0;border-color:#d1dfda;border-radius:12px}
+  .result-columns>div:nth-child(2){display:none}
+  .route-result h4{font-size:17px}
+  .route-result ol{padding-left:22px}
+  .route-result li{margin:8px 0;font-size:15px;line-height:1.55}
+  .recommended-head{display:block;padding-top:18px}
+  .recommended-head h4{margin-bottom:10px;font-size:19px}
+  .recommended-head button{width:100%;min-height:44px;padding:9px 12px;color:#355c56;background:#edf4f1;border-color:#a9bfb7;border-radius:10px;font-size:14px}
+  .recommended-list{gap:10px;margin-top:10px}
+  .mini-resource{display:block;padding:14px;background:#fff;border:1px solid #ccd8d4;border-left:5px solid #5e8479;border-radius:12px}
+  .mini-resource strong{font-size:17px;line-height:1.4}
+  .mini-resource small{margin-top:4px;font-size:14px;line-height:1.55}
+  .mini-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:11px}
+  .mini-actions a{min-height:44px;display:grid;place-items:center;border-radius:9px;font-size:15px}
+  .mini-actions a.map{color:#5e3f20;background:#f0d6ad}
+
+  .result-triage{margin-top:20px}
+  .triage-question{font-size:17px;line-height:1.45}
+  .triage-emergency{grid-template-columns:1fr;gap:9px}
+  .triage-emergency a{padding:14px;border-radius:12px}
+  .triage-emergency strong{font-size:16px;line-height:1.4}
+  .triage-emergency b{padding:8px 10px;white-space:nowrap}
+  .triage-divider{margin:20px 0}
+  .triage-options{grid-template-columns:1fr;gap:8px}
+  .triage-options button{grid-template-columns:42px 1fr 20px;min-height:62px;padding:9px 12px;border-radius:12px}
+  .triage-options button strong{font-size:16px;line-height:1.4}
+
+  .quick-strip,.nodes-section,.data-note{display:none!important}
+  .directory-section{padding:40px 14px 64px}
+  .directory-intro{display:block}
+  .directory-intro h2{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:27px;line-height:1.3}
+  .directory-intro>div:first-child>p:last-child{font-size:14px;line-height:1.55}
+  .directory-total{display:none}
+  .directory-tools{position:static;display:grid;grid-template-columns:1fr;gap:10px;margin:20px 0 13px;padding:12px;background:#e3ebe8;border-color:#c7d5d0;border-radius:13px}
+  .directory-tools input,.directory-tools select{min-height:50px;border-color:#bdccc7;font-size:16px}
+  .node-filter{display:none}
+  .directory-status{align-items:flex-start;gap:8px}
+  .directory-status p{font-size:14px;line-height:1.45}
+  .resource-list{gap:10px}
+  .resource-row{display:block;padding:14px;border-radius:12px}
+  .resource-mark{display:none}
+  .resource-copy h3{font-size:18px;line-height:1.45}
+  .resource-copy p{font-size:14px;line-height:1.55}
+  .resource-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+  .resource-actions a{min-height:46px;display:grid;place-items:center;border-radius:9px;font-size:14px}
+  .resource-actions a.phone{background:#356f61;border-color:#356f61}
+  .resource-actions a.map{color:#713d31;background:#fff;border:2px solid #b34d46}
+  footer{padding:24px 15px}
+}
+
