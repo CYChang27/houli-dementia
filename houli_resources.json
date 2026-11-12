@@ -1698,9 +1698,7 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory"
-    ],
+    "useFor": [],
     "accessType": "direct",
     "priority": 0,
     "accessNote": "可先電話確認認知、神經或高齡相關門診。"
@@ -1792,9 +1790,7 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory"
-    ],
+    "useFor": [],
     "accessType": "direct",
     "priority": 0,
     "accessNote": "可先電話確認認知、神經或高齡相關門診。"
@@ -1840,9 +1836,7 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory"
-    ],
+    "useFor": [],
     "accessType": "direct",
     "priority": 0,
     "accessNote": "可先電話確認認知、神經或高齡相關門診。"
