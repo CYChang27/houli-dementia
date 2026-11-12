@@ -415,3 +415,16 @@ footer p{margin:2px 0;font-size:12px}
   .situation{min-height:101px;padding:12px}
   .situation .label-mobile{font-size:15px;line-height:1.35}
 }
+
+
+/* 真正分流：未選情境前不顯示答案，移除內部編碼感 */
+.route-result[hidden]{display:none}
+.result-code[hidden]{display:none}
+.result-direct{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.result-direct .direct-card:only-child{grid-column:1/-1}
+.back-to-situations{appearance:none;padding:8px 13px;color:var(--sage-dark);background:#fff;border:1px solid #9fb3ad;border-radius:999px;font-family:inherit;font-size:14px;font-weight:800;cursor:pointer}
+.back-to-situations:hover{background:#edf4f1}
+@media(max-width:650px){
+  .result-direct{grid-template-columns:1fr}
+  .back-to-situations{min-height:40px;padding:8px 12px}
+}
