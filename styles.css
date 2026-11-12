@@ -155,13 +155,6 @@ h1 span{color:#718f98}
 .load-more{display:block;margin:20px auto 0;padding:11px 28px;color:#fff;background:var(--sage-dark);border:0;border-radius:999px;cursor:pointer;font-weight:900}
 .load-more[hidden]{display:none}
 .empty{padding:30px;background:#fff;border-radius:12px;text-align:center}
-.data-note{display:grid;grid-template-columns:.55fr 1.45fr;gap:50px;padding:55px max(24px,calc((100vw - 1172px)/2));background:#dfe9e8;color:var(--ink)}
-.data-note h2{margin:0;font-size:31px}
-.data-note>div{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
-.data-note p{margin:0;padding:15px;background:rgba(255,255,255,.58);border:1px solid rgba(112,143,139,.20);border-radius:12px}
-.data-note b,.data-note span{display:block}
-.data-note b{color:var(--sage-dark)}
-.data-note span{margin-top:5px;color:var(--muted);font-size:13px}
 footer{display:flex;justify-content:space-between;gap:25px;padding:28px max(24px,calc((100vw - 1172px)/2));color:#697876;background:#f2ede4}
 footer p{margin:2px 0;font-size:12px}
 
@@ -178,7 +171,6 @@ footer p{margin:2px 0;font-size:12px}
   .node-line::before{display:none}
   .directory-layout{grid-template-columns:1fr}
   .node-filter{display:grid;grid-template-columns:repeat(4,1fr)}
-  .data-note{grid-template-columns:1fr}
   .directory-intro{align-items:start}
 }
 @media(max-width:650px){
@@ -218,8 +210,6 @@ footer p{margin:2px 0;font-size:12px}
   .resource-mark{width:44px;height:44px}
   .resource-actions{grid-column:1/-1;justify-content:stretch}
   .resource-actions a{flex:1}
-  .data-note{padding:44px 15px}
-  .data-note>div{grid-template-columns:1fr}
   footer{flex-direction:column;padding:25px 15px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
@@ -533,7 +523,7 @@ html{scroll-behavior:auto}
   .triage-options button{grid-template-columns:42px 1fr 20px;min-height:62px;padding:9px 12px;border-radius:12px}
   .triage-options button strong{font-size:16px;line-height:1.4}
 
-  .quick-strip,.nodes-section,.data-note{display:none!important}
+  .quick-strip,.nodes-section{display:none!important}
   .directory-section{padding:40px 14px 64px}
   .directory-intro{display:block}
   .directory-intro h2{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;font-size:27px;line-height:1.3}
