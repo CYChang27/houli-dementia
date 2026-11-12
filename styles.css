@@ -385,3 +385,33 @@ footer p{margin:2px 0;font-size:12px}
   .resource-copy p{font-size:14px;line-height:1.55}
   .resource-actions a{min-height:44px;display:grid;place-items:center;font-size:14px}
 }
+
+
+/* 入口優先：縮短形象區，讓情境選擇進入第一個畫面 */
+.hero{padding-top:34px;padding-bottom:28px}
+.hero-copy{grid-template-columns:.86fr 1.14fr;column-gap:54px}
+.hero-copy h1{font-size:clamp(54px,6.4vw,82px);line-height:.98;margin-top:8px}
+.hero-copy .hero-lead{max-width:640px;margin-bottom:17px;font-size:17px;line-height:1.65}
+.hero-visual{display:none}
+.journey-section{padding-top:32px}
+.journey-section .section-title{margin-bottom:22px}
+.journey-section .section-title h2{font-size:clamp(33px,3.7vw,46px)}
+@media(max-width:650px){
+  .site-header{position:sticky;top:0;z-index:30}
+  .hero{padding:18px 15px 14px}
+  .hero-copy .eyebrow{margin-bottom:8px;font-size:11px}
+  .hero-copy h1{margin:0;font-size:33px;line-height:1.12;letter-spacing:-.04em}
+  .hero-copy h1 br{display:none}
+  .hero-copy .hero-lead{margin:11px 0 13px;font-size:14px;line-height:1.55}
+  .hero-actions{display:block}
+  .main-action{min-height:46px;padding:12px 15px;text-align:center}
+  .text-action{display:none}
+  .journey-section{padding-top:20px}
+  .journey-section .section-title{margin-bottom:14px}
+  .journey-section .section-title .eyebrow{display:none}
+  .journey-section .section-title h2{font-size:27px;line-height:1.25}
+  .journey-section .section-title>p:last-child{margin-top:7px;font-size:14px;line-height:1.5}
+  .route-head{margin-bottom:9px}
+  .situation{min-height:101px;padding:12px}
+  .situation .label-mobile{font-size:15px;line-height:1.35}
+}
