@@ -365,3 +365,23 @@ footer p{margin:2px 0;font-size:12px}
   .node-filter button{flex:0 0 auto;width:auto;padding:10px 15px;scroll-snap-align:start}
   .directory-tools{position:sticky;top:68px;z-index:8}
 }
+
+
+/* 資源角色與手機查詢流程 */
+.direct-badge{color:#174f3c!important;background:#d8eee5!important;border-color:#9fc9b8!important}
+.community-badge{color:#3e561f!important;background:#e7efd6!important;border-color:#bccd96!important}
+.recommended-head[hidden],.recommended-list[hidden]{display:none}
+.situation{position:relative}
+.situation.active::after{content:"✓";position:absolute;right:12px;top:10px;display:grid;place-items:center;width:25px;height:25px;color:#fff;background:#9b6737;border-radius:50%;font-size:14px;font-weight:900}
+@media(max-width:650px){
+  .result-columns>div:nth-child(2){display:none}
+  .result-columns{display:block}
+  .situation{min-height:108px}
+  .situation.active::after{right:8px;top:8px;width:22px;height:22px}
+  .recommended-head{align-items:flex-start;gap:9px}
+  .recommended-head h4{font-size:18px}
+  .recommended-head button{white-space:nowrap}
+  .resource-copy h3{font-size:18px;line-height:1.45}
+  .resource-copy p{font-size:14px;line-height:1.55}
+  .resource-actions a{min-height:44px;display:grid;place-items:center;font-size:14px}
+}
