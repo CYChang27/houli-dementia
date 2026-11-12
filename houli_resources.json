@@ -6,7 +6,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "社會福利、補助與行政諮詢",
     "phone": "04-25562116",
     "address": "421臺中市后里區墩西里公安路84號",
     "contact": "社會課/林課長",
@@ -18,12 +18,11 @@
       "公共服務"
     ],
     "useFor": [
-      "start",
       "welfare"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r002",
@@ -32,7 +31,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "戶籍與身分行政服務",
     "phone": "04-25562241",
     "address": "421臺中市后里區墩西里公安路90號",
     "contact": "張秘書",
@@ -43,12 +42,10 @@
     "nodes": [
       "公共服務"
     ],
-    "useFor": [
-      "welfare"
-    ],
+    "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r003",
@@ -57,7 +54,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "走失協尋與人身安全處理",
     "phone": "04-25562037",
     "address": "421臺中市后里區墩西里公安路88號",
     "contact": "王所長",
@@ -72,8 +69,8 @@
       "safety"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r004",
@@ -82,7 +79,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "緊急救護與消防安全",
     "phone": "04-25562600",
     "address": "421臺中市后里區墩東里文明路146號",
     "contact": "關隊長",
@@ -97,8 +94,8 @@
       "safety"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r005",
@@ -107,7 +104,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "環境清潔與廢棄物服務",
     "phone": "04-25571966",
     "address": "421臺中市后里區墩北里甲后路一段958號",
     "contact": "曾隊長",
@@ -121,7 +118,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r006",
@@ -130,7 +127,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "農民與社區生活服務",
     "phone": "04-25565116",
     "address": "421臺中市后里區墩北里民生路268號",
     "contact": "陳總幹事",
@@ -144,7 +141,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r007",
@@ -153,7 +150,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "農田水利相關服務",
     "phone": "04-25562172",
     "address": "421臺中市后里區墩北里大圳路479巷22號",
     "contact": "何站長",
@@ -167,7 +164,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r008",
@@ -176,7 +173,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "用電與停電服務",
     "phone": "04-25562036",
     "address": "421臺中市后里區墩北里三光路74號",
     "contact": "",
@@ -190,7 +187,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r009",
@@ -199,7 +196,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "用水與停水服務",
     "phone": "04-25562066",
     "address": "421臺中市后里區墩南里舊社路2之1號",
     "contact": "王主任",
@@ -213,7 +210,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r010",
@@ -222,7 +219,7 @@
     "sourceTypes": [
       "公部門"
     ],
-    "role": "行政諮詢、安全與生活服務",
+    "role": "在地公共與生活服務",
     "phone": "04-25561100",
     "address": "421臺中市后里區眉山里甲后路二段350號",
     "contact": "劉處長",
@@ -236,7 +233,7 @@
     "useFor": [],
     "accessType": "direct",
     "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可依單位業務直接洽詢；服務時間與資格請先確認。"
   },
   {
     "id": "r011",
@@ -245,7 +242,7 @@
     "sourceTypes": [
       "基金會及福利"
     ],
-    "role": "福利、物資與家庭支持",
+    "role": "福利、關懷與家庭生活支持",
     "phone": "04-25587746",
     "address": "421臺中市后里區墩東里文明路21-2號",
     "contact": "李站長",
@@ -257,12 +254,11 @@
       "福利支持"
     ],
     "useFor": [
-      "welfare",
-      "caregiver"
+      "welfare"
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可洽詢福利、物資或關懷服務；實際資格請由單位確認。"
   },
   {
     "id": "r012",
@@ -271,7 +267,7 @@
     "sourceTypes": [
       "基金會及福利"
     ],
-    "role": "福利、物資與家庭支持",
+    "role": "福利、關懷與家庭生活支持",
     "phone": "04-25585261",
     "address": "421臺中市后里區眉山里甲后路三段145巷2號",
     "contact": "塗師姐",
@@ -283,12 +279,11 @@
       "福利支持"
     ],
     "useFor": [
-      "welfare",
-      "caregiver"
+      "welfare"
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可洽詢福利、物資或關懷服務；實際資格請由單位確認。"
   },
   {
     "id": "r013",
@@ -297,7 +292,7 @@
     "sourceTypes": [
       "基金會及福利"
     ],
-    "role": "福利、物資與家庭支持",
+    "role": "福利、關懷與家庭生活支持",
     "phone": "04-25232704",
     "address": "421臺中市豐原區豐田里豐原大道三段199號",
     "contact": "",
@@ -309,12 +304,11 @@
       "福利支持"
     ],
     "useFor": [
-      "welfare",
-      "caregiver"
+      "welfare"
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可洽詢福利、物資或關懷服務；實際資格請由單位確認。"
   },
   {
     "id": "r014",
@@ -323,7 +317,7 @@
     "sourceTypes": [
       "基金會及福利"
     ],
-    "role": "福利、物資與家庭支持",
+    "role": "福利、關懷與家庭生活支持",
     "phone": "04-2298-4811",
     "address": "421臺中市后里區文化路93號",
     "contact": "張牧師",
@@ -335,12 +329,11 @@
       "福利支持"
     ],
     "useFor": [
-      "welfare",
-      "caregiver"
+      "welfare"
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可洽詢福利、物資或關懷服務；實際資格請由單位確認。"
   },
   {
     "id": "r015",
@@ -349,7 +342,7 @@
     "sourceTypes": [
       "基金會及福利"
     ],
-    "role": "福利、物資與家庭支持",
+    "role": "物資與食物支持",
     "phone": "04-25587003",
     "address": "421臺中市后里區后里里三豐路四段43號",
     "contact": "潘牧師",
@@ -361,12 +354,11 @@
       "福利支持"
     ],
     "useFor": [
-      "welfare",
-      "caregiver"
+      "welfare"
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可洽詢福利、物資或關懷服務；實際資格請由單位確認。"
   },
   {
     "id": "r016",
@@ -375,7 +367,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25568488",
     "address": "臺中市后里區廣福里14鄰內東路99號",
     "contact": "王理事長",
@@ -387,12 +379,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r017",
@@ -401,7 +391,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0932-528745",
     "address": "臺中市后里區仁里里4鄰圳寮路55號",
     "contact": "張理事長",
@@ -413,12 +403,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r018",
@@ -427,7 +415,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0911-119019",
     "address": "臺中市后里區義里里15鄰甲后路一段115巷26號",
     "contact": "張總幹事",
@@ -439,12 +427,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r019",
@@ -453,7 +439,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25580514",
     "address": "臺中市后里區義德里10鄰中興街19號",
     "contact": "張理事長",
@@ -465,12 +451,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r020",
@@ -479,7 +463,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25569139",
     "address": "臺中市后里區后里里18鄰新興街70號",
     "contact": "陳總幹事",
@@ -491,12 +475,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r021",
@@ -505,7 +487,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0911-120220",
     "address": "臺中市后里區厚里里7鄰成功路239巷29號",
     "contact": "張總幹事",
@@ -517,12 +499,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r022",
@@ -532,7 +512,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "0919-720513",
     "address": "臺中市后里區墩東里5鄰平安路130號",
     "contact": "周理事長",
@@ -549,8 +529,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r023",
@@ -559,7 +539,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0928-334896",
     "address": "臺中市后里區墩西里3鄰福音路89號",
     "contact": "張理事長",
@@ -571,12 +551,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r024",
@@ -585,7 +563,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0963-215168",
     "address": "421臺中市后里區枋寮路1-39號",
     "contact": "林總幹事",
@@ -597,12 +575,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r025",
@@ -611,7 +587,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25581747",
     "address": "421臺中市后里區墩北里甲后路二段100巷211號",
     "contact": "李理事長",
@@ -623,12 +599,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r026",
@@ -637,7 +611,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "0921-725071",
     "address": "421臺中市后里區中和里8鄰中正路140號",
     "contact": "詹總幹事",
@@ -649,12 +623,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r027",
@@ -664,7 +636,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "0919-723806",
     "address": "421臺中市后里區聯合里7鄰水門路55-10號",
     "contact": "王理事長",
@@ -681,8 +653,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r028",
@@ -692,7 +664,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "0931-365506",
     "address": "421臺中市后里區太平里3鄰口庄路15之1號",
     "contact": "謝理事長",
@@ -709,8 +681,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r029",
@@ -720,7 +692,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25571927",
     "address": "421臺中市后里區眉山里甲后路二段588號",
     "contact": "王總幹事",
@@ -737,8 +709,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r030",
@@ -747,7 +719,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25564135",
     "address": "421臺中市后里區月眉里05鄰雲頭路公會巷9號",
     "contact": "吳理事長",
@@ -759,12 +731,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r031",
@@ -773,7 +743,7 @@
     "sourceTypes": [
       "社區發展協會"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "社區活動、鄰里關懷與在地聯繫",
     "phone": "(04)25569277",
     "address": "421臺中市后里區公館里三豐路五段352巷163號",
     "contact": "王理事長",
@@ -785,12 +755,10 @@
       "社區關懷",
       "活力參與"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "accessNote": "屬在地社區聯繫網絡，活動內容請先洽詢。"
   },
   {
     "id": "r032",
@@ -800,7 +768,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25566920",
     "address": "421臺中市后里區泰安里福興路67號",
     "contact": "劉理事長",
@@ -817,8 +785,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r033",
@@ -828,7 +796,7 @@
       "社區發展協會",
       "關懷據點"
     ],
-    "role": "社區活動、鄰里關懷與在地支持",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25576240",
     "address": "421臺中市后里區舊社里舊社路93號",
     "contact": "林理事長",
@@ -845,8 +813,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r034",
@@ -855,7 +823,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25587003",
     "address": "421臺中市后里區后里里三豐路4段43號",
     "contact": "潘牧師",
@@ -872,8 +840,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r035",
@@ -882,7 +850,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25571195",
     "address": "421臺中市后里區厚里里甲后路一段716巷5-1號",
     "contact": "蘇社工",
@@ -899,8 +867,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r036",
@@ -909,7 +877,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "(04)25571165",
     "address": "421臺中市后里區中和里中正路140號",
     "contact": "張理事長",
@@ -926,8 +894,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r037",
@@ -936,7 +904,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "0910-434981",
     "address": "421臺中市后里區月眉里月湖東路186巷9號",
     "contact": "蔡理事長",
@@ -953,8 +921,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r038",
@@ -963,7 +931,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "0973-582759",
     "address": "421臺中市后里區義德里大山路211號",
     "contact": "柯理事長",
@@ -980,8 +948,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r039",
@@ -990,7 +958,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "04-25591588",
     "address": "421臺中市后里區墩北里月湖路82號",
     "contact": "羅里長",
@@ -1007,8 +975,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r040",
@@ -1017,7 +985,7 @@
     "sourceTypes": [
       "關懷據點"
     ],
-    "role": "據點活動、共餐與在地關懷",
+    "role": "關懷據點、活動、共餐與社區支持",
     "phone": "04-25571165",
     "address": "421臺中市后里區墩南里南村路134號",
     "contact": "勞小姐",
@@ -1034,8 +1002,8 @@
       "caregiver"
     ],
     "accessType": "community",
-    "priority": 1,
-    "accessNote": "可洽詢據點、共餐、活動或在地關懷，參加前請確認時間與資格。"
+    "priority": 0,
+    "accessNote": "可詢問據點活動、共餐及參加方式；時間與資格請先確認。"
   },
   {
     "id": "r041",
@@ -1044,7 +1012,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25583298",
     "address": "421臺中市后里區墩北里甲后路一段677號",
     "contact": "",
@@ -1059,8 +1027,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r042",
@@ -1069,7 +1037,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25566959",
     "address": "421臺中市后里區中山路37號",
     "contact": "",
@@ -1084,8 +1052,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r043",
@@ -1094,7 +1062,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25566999",
     "address": "421臺中市后里區眉山里甲后路二段579號",
     "contact": "",
@@ -1109,8 +1077,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r044",
@@ -1119,7 +1087,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25570225",
     "address": "421臺中市后里區墩東里民生路123號",
     "contact": "",
@@ -1134,8 +1102,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r045",
@@ -1144,7 +1112,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25573342",
     "address": "421臺中市后里區厚里里甲后路一段585號",
     "contact": "",
@@ -1159,8 +1127,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r046",
@@ -1169,7 +1137,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25562991",
     "address": "421臺中市后里區墩西里公安路68號",
     "contact": "",
@@ -1184,8 +1152,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r047",
@@ -1194,7 +1162,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25585333",
     "address": "421臺中市后里區墩西里四村路78號",
     "contact": "",
@@ -1209,8 +1177,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r048",
@@ -1219,7 +1187,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25561017",
     "address": "421臺中市后里區后里里甲后路一段598號",
     "contact": "",
@@ -1234,8 +1202,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r049",
@@ -1244,7 +1212,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25585273",
     "address": "421臺中市后里區義德里甲后路一段253號",
     "contact": "",
@@ -1259,8 +1227,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r050",
@@ -1269,7 +1237,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25568578",
     "address": "421臺中市后里區甲后路ㄧ段438號",
     "contact": "",
@@ -1284,8 +1252,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r051",
@@ -1294,7 +1262,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25562058",
     "address": "421臺中市后里區墩北里四村路103號",
     "contact": "",
@@ -1309,8 +1277,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r052",
@@ -1319,7 +1287,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25562835",
     "address": "421臺中市后里區三豐路四段18號1樓",
     "contact": "",
@@ -1334,8 +1302,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r053",
@@ -1344,7 +1312,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25582413",
     "address": "421臺中市后里區甲后路一段163號1樓",
     "contact": "",
@@ -1359,8 +1327,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r054",
@@ -1369,7 +1337,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25581036",
     "address": "421臺中市后里區福音路28號1樓",
     "contact": "",
@@ -1384,8 +1352,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r055",
@@ -1394,7 +1362,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25587518",
     "address": "421臺中市后里區甲后路一段478號1樓",
     "contact": "",
@@ -1409,8 +1377,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r056",
@@ -1419,7 +1387,7 @@
     "sourceTypes": [
       "藥局"
     ],
-    "role": "藥事諮詢與安全用藥",
+    "role": "用藥諮詢與藥事服務",
     "phone": "04-25590119",
     "address": "421臺中市后里區文明路133號1樓",
     "contact": "",
@@ -1434,8 +1402,8 @@
       "medicine"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可帶藥袋或用藥清單向藥師諮詢。"
   },
   {
     "id": "r057",
@@ -1444,7 +1412,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25581125",
     "address": "421臺中市后里區墩西里四村路76號",
     "contact": "",
@@ -1456,12 +1424,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r058",
@@ -1470,7 +1437,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25573268",
     "address": "421臺中市后里區義德里甲后路一段400號",
     "contact": "",
@@ -1482,12 +1449,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r059",
@@ -1496,7 +1462,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25577378",
     "address": "421臺中市后里區義德里甲后路一段255號",
     "contact": "",
@@ -1508,12 +1474,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r060",
@@ -1522,7 +1487,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25580008",
     "address": "421臺中市后里區后里里三豐路三段1070號",
     "contact": "",
@@ -1534,12 +1499,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r061",
@@ -1548,7 +1512,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25562163",
     "address": "421臺中市后里區后里里甲后路一段489號",
     "contact": "",
@@ -1560,12 +1524,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r062",
@@ -1574,7 +1537,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25584352",
     "address": "421臺中市后里區厚里里甲后路一段589號",
     "contact": "",
@@ -1586,12 +1549,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r063",
@@ -1600,7 +1562,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25586608",
     "address": "421臺中市后里區后里里甲后路一段480號",
     "contact": "",
@@ -1612,12 +1574,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r064",
@@ -1626,7 +1587,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25572687",
     "address": "421臺中市后里區墩東里民生路82號",
     "contact": "",
@@ -1638,12 +1599,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r065",
@@ -1652,7 +1612,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25572699",
     "address": "421臺中市后里區墩東里民生路220號",
     "contact": "",
@@ -1664,12 +1624,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r066",
@@ -1678,7 +1637,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25562059",
     "address": "421臺中市后里區墩西里四村路61號",
     "contact": "",
@@ -1690,12 +1649,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r067",
@@ -1704,7 +1662,7 @@
     "sourceTypes": [
       "診所"
     ],
-    "role": "健康評估、診療與就醫建議",
+    "role": "基層健康評估與門診服務",
     "phone": "04-25585358",
     "address": "421臺中市后里區后里里三豐路四段61號",
     "contact": "",
@@ -1716,12 +1674,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "medicine",
-      "memory"
+      "medicine"
     ],
     "accessType": "direct",
-    "priority": 2,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 1,
+    "accessNote": "可先電話確認科別、門診時間與是否需要預約。"
   },
   {
     "id": "r068",
@@ -1730,7 +1687,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-23592525",
     "address": "407臺中市西屯區福聯里台灣大道四段1650號",
     "contact": "",
@@ -1742,12 +1699,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "memory",
-      "medicine"
+      "memory"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話確認認知、神經或高齡相關門診。"
   },
   {
     "id": "r069",
@@ -1756,7 +1712,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-22294411",
     "address": "403臺中市西區廣民里三民路一段199號",
     "contact": "",
@@ -1767,13 +1723,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r070",
@@ -1782,7 +1735,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-26885599",
     "address": "437臺中市大甲區新美里經國路321號",
     "contact": "",
@@ -1793,13 +1746,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r071",
@@ -1808,7 +1758,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-26862288",
     "address": "437臺中市大甲區平安里八德街2號",
     "contact": "",
@@ -1819,13 +1769,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r072",
@@ -1834,7 +1781,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-22052121",
     "address": "404臺中市北區育德里育德路2號",
     "contact": "",
@@ -1846,12 +1793,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "memory",
-      "medicine"
+      "memory"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話確認認知、神經或高齡相關門診。"
   },
   {
     "id": "r073",
@@ -1860,7 +1806,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-25231180",
     "address": "420臺中市豐原區中山里中正路115號",
     "contact": "",
@@ -1871,13 +1817,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r074",
@@ -1886,7 +1829,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-25271180",
     "address": "420臺中市豐原區南陽里安康路100號",
     "contact": "",
@@ -1898,12 +1841,11 @@
       "健康就醫"
     ],
     "useFor": [
-      "memory",
-      "medicine"
+      "memory"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話確認認知、神經或高齡相關門診。"
   },
   {
     "id": "r075",
@@ -1912,7 +1854,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-22513310",
     "address": "408臺中市南屯區溝墘里水安街3號",
     "contact": "",
@@ -1923,13 +1865,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r076",
@@ -1938,7 +1877,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-25262889",
     "address": "420臺中市豐原區豐西里中正路348號",
     "contact": "",
@@ -1949,13 +1888,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r077",
@@ -1964,7 +1900,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-25228792",
     "address": "420臺中市豐原區大湳里圓環北路一段319號",
     "contact": "",
@@ -1975,13 +1911,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r078",
@@ -1990,7 +1923,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-26581919",
     "address": "435臺中市梧棲區大庄里台灣大道八段699號",
     "contact": "",
@@ -2001,13 +1934,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r079",
@@ -2016,7 +1946,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-25222209",
     "address": "420臺中市豐原區豐榮里中正路218號",
     "contact": "",
@@ -2027,13 +1957,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r080",
@@ -2042,7 +1969,7 @@
     "sourceTypes": [
       "合作醫院"
     ],
-    "role": "醫療評估、診斷與轉介",
+    "role": "醫療評估、診斷與轉診服務",
     "phone": "04-36060666",
     "address": "427臺中市潭子區豐興路一段88號",
     "contact": "",
@@ -2053,13 +1980,10 @@
     "nodes": [
       "健康就醫"
     ],
-    "useFor": [
-      "memory",
-      "medicine"
-    ],
+    "useFor": [],
     "accessType": "direct",
-    "priority": 3,
-    "accessNote": "可洽詢認知或健康評估及轉介方式，實際科別與服務請先確認。"
+    "priority": 2,
+    "accessNote": "可依醫療需求洽詢門診與轉診服務。"
   },
   {
     "id": "r081",
@@ -2068,7 +1992,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "住宿、護理或整合長照服務",
     "phone": "04-23691820",
     "address": "421臺中市后里區廠舍莊200號",
     "contact": "",
@@ -2085,7 +2009,7 @@
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r082",
@@ -2094,7 +2018,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "住宿、護理或整合長照服務",
     "phone": "04-25570002",
     "address": "421臺中市后里區眉山里三月路5之10號5之10号",
     "contact": "",
@@ -2111,7 +2035,7 @@
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r083",
@@ -2120,7 +2044,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "住宿、護理或整合長照服務",
     "phone": "04-25582208",
     "address": "421臺中市后里區泰安里福美路2-6號",
     "contact": "",
@@ -2137,7 +2061,7 @@
     ],
     "accessType": "direct",
     "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r084",
@@ -2146,7 +2070,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "居家照顧與長照服務",
     "phone": "0919-222190",
     "address": "421臺中市后里區三豐路三段781號",
     "contact": "",
@@ -2162,8 +2086,8 @@
       "caregiver"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r085",
@@ -2172,7 +2096,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "居家照顧與長照服務",
     "phone": "04-25567809",
     "address": "421臺中市后里區泰安里福美路5號",
     "contact": "",
@@ -2188,8 +2112,8 @@
       "caregiver"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r086",
@@ -2198,7 +2122,7 @@
     "sourceTypes": [
       "機構"
     ],
-    "role": "日常照顧、居家或機構服務",
+    "role": "居家照顧與長照服務",
     "phone": "04-25583360",
     "address": "421臺中市后里區后里里泉州路23之18號",
     "contact": "",
@@ -2214,8 +2138,8 @@
       "caregiver"
     ],
     "accessType": "direct",
-    "priority": 1,
-    "accessNote": "可依單位服務內容直接洽詢，聯絡前請先確認。"
+    "priority": 0,
+    "accessNote": "可先電話詢問服務區域、收案資格與可提供項目。"
   },
   {
     "id": "r087",
@@ -2224,7 +2148,7 @@
     "sourceTypes": [
       "志工團隊"
     ],
-    "role": "志工關懷、宣導與社區協助",
+    "role": "健康活動與社區服務協力",
     "phone": "04-25562048",
     "address": "421臺中市后里區三光路139號",
     "contact": "",
@@ -2235,12 +2159,10 @@
     "nodes": [
       "社區關懷"
     ],
-    "useFor": [
-      "activity"
-    ],
+    "useFor": [],
     "accessType": "community",
     "priority": 2,
-    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
+    "accessNote": "屬社區協力角色；緊急狀況仍請直接撥110或119。"
   },
   {
     "id": "r088",
@@ -2249,7 +2171,7 @@
     "sourceTypes": [
       "志工團隊"
     ],
-    "role": "志工關懷、宣導與社區協助",
+    "role": "社區安全宣導、關懷與協助通報",
     "phone": "04-25562116",
     "address": "421臺中市后里區公安84號",
     "contact": "",
@@ -2264,8 +2186,8 @@
       "safety"
     ],
     "accessType": "community",
-    "priority": 2,
-    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
+    "priority": 1,
+    "accessNote": "屬社區協力角色；緊急狀況仍請直接撥110或119。"
   },
   {
     "id": "r089",
@@ -2274,7 +2196,7 @@
     "sourceTypes": [
       "志工團隊"
     ],
-    "role": "志工關懷、宣導與社區協助",
+    "role": "社區安全宣導、關懷與協助通報",
     "phone": "042-5562037",
     "address": "421臺中市后里區墩西里公安路88號",
     "contact": "",
@@ -2289,8 +2211,8 @@
       "safety"
     ],
     "accessType": "community",
-    "priority": 2,
-    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
+    "priority": 1,
+    "accessNote": "屬社區協力角色；緊急狀況仍請直接撥110或119。"
   },
   {
     "id": "r090",
@@ -2299,7 +2221,7 @@
     "sourceTypes": [
       "志工團隊"
     ],
-    "role": "志工關懷、宣導與社區協助",
+    "role": "社區安全宣導、關懷與協助通報",
     "phone": "04-25562600",
     "address": "421臺中市后里區墩東里文明路146號",
     "contact": "",
@@ -2314,8 +2236,8 @@
       "safety"
     ],
     "accessType": "community",
-    "priority": 2,
-    "accessNote": "屬社區協力或志工網絡，請先透過所屬單位確認可提供的協助。"
+    "priority": 1,
+    "accessNote": "屬社區協力角色；緊急狀況仍請直接撥110或119。"
   },
   {
     "id": "r091",
@@ -2324,7 +2246,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25580286",
     "address": "421臺中市后里區墩西里三光路42號",
     "contact": "",
@@ -2337,8 +2259,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r092",
@@ -2347,7 +2269,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25565199",
     "address": "421臺中市后里區眉山里雲頭路52號",
     "contact": "",
@@ -2360,8 +2282,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r093",
@@ -2370,7 +2292,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25568844",
     "address": "421臺中市后里區月眉里雲頭路公會巷9號",
     "contact": "",
@@ -2383,8 +2305,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r094",
@@ -2393,7 +2315,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25572685",
     "address": "421臺中市后里區舊社里舊社路88號",
     "contact": "",
@@ -2406,8 +2328,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r095",
@@ -2416,7 +2338,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25562444",
     "address": "421臺中市后里區厚里里甲后路一段716巷5號",
     "contact": "",
@@ -2429,8 +2351,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r096",
@@ -2439,7 +2361,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25583010",
     "address": "421臺中市后里區厚里里九甲七路256號",
     "contact": "",
@@ -2452,8 +2374,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r097",
@@ -2462,7 +2384,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25589018",
     "address": "421臺中市后里區公館里三豐路五段290號",
     "contact": "",
@@ -2475,8 +2397,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r098",
@@ -2485,7 +2407,7 @@
     "sourceTypes": [
       "宮廟"
     ],
-    "role": "信仰、日常接觸與社區支持",
+    "role": "熟悉生活場域與社區聯繫",
     "phone": "04-25588766",
     "address": "421臺中市后里區后里里泉州路14-6號",
     "contact": "",
@@ -2498,8 +2420,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r099",
@@ -2508,7 +2430,7 @@
     "sourceTypes": [
       "市場"
     ],
-    "role": "日常採買、生活接觸與友善協助",
+    "role": "日常生活接觸與在地辨識場域",
     "phone": "",
     "address": "421臺中市后里區墩北里大興路72號",
     "contact": "",
@@ -2521,8 +2443,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r100",
@@ -2531,7 +2453,7 @@
     "sourceTypes": [
       "市場"
     ],
-    "role": "日常採買、生活接觸與友善協助",
+    "role": "日常生活接觸與在地辨識場域",
     "phone": "",
     "address": "421臺中市后里區后里里復興街99巷",
     "contact": "",
@@ -2544,8 +2466,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r101",
@@ -2554,7 +2476,7 @@
     "sourceTypes": [
       "市場"
     ],
-    "role": "日常採買、生活接觸與友善協助",
+    "role": "日常生活接觸與在地辨識場域",
     "phone": "",
     "address": "421臺中市后里區厚里里甲后路580-604號",
     "contact": "",
@@ -2567,8 +2489,8 @@
     ],
     "useFor": [],
     "accessType": "community",
-    "priority": 3,
-    "accessNote": "屬日常生活與友善接觸場域，不是專業照顧或緊急服務窗口。"
+    "priority": 2,
+    "accessNote": "屬生活接觸與社區協力場域，並非正式照顧服務窗口。"
   },
   {
     "id": "r102",
@@ -2577,7 +2499,7 @@
     "sourceTypes": [
       "運動"
     ],
-    "role": "運動休閒、外出活動與社會參與",
+    "role": "運動、休閒與社會參與場域",
     "phone": "",
     "address": "421台中市后里區大圳路258號對面",
     "contact": "",
@@ -2593,7 +2515,7 @@
     ],
     "accessType": "community",
     "priority": 1,
-    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
+    "accessNote": "可依長者能力與陪同需求安排活動，前往前請確認開放資訊。"
   },
   {
     "id": "r103",
@@ -2602,7 +2524,7 @@
     "sourceTypes": [
       "運動"
     ],
-    "role": "運動休閒、外出活動與社會參與",
+    "role": "運動、休閒與社會參與場域",
     "phone": "",
     "address": "421臺中市后里區墩東里文明路39號",
     "contact": "",
@@ -2618,7 +2540,7 @@
     ],
     "accessType": "community",
     "priority": 1,
-    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
+    "accessNote": "可依長者能力與陪同需求安排活動，前往前請確認開放資訊。"
   },
   {
     "id": "r104",
@@ -2627,7 +2549,7 @@
     "sourceTypes": [
       "運動"
     ],
-    "role": "運動休閒、外出活動與社會參與",
+    "role": "運動、休閒與社會參與場域",
     "phone": "",
     "address": "421臺中市后里區廣福里三豐路三段936號",
     "contact": "",
@@ -2643,7 +2565,7 @@
     ],
     "accessType": "community",
     "priority": 1,
-    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
+    "accessNote": "可依長者能力與陪同需求安排活動，前往前請確認開放資訊。"
   },
   {
     "id": "r105",
@@ -2652,7 +2574,7 @@
     "sourceTypes": [
       "運動"
     ],
-    "role": "運動休閒、外出活動與社會參與",
+    "role": "運動、休閒與社會參與場域",
     "phone": "",
     "address": "421臺中市后里區堤防路518號",
     "contact": "",
@@ -2668,7 +2590,7 @@
     ],
     "accessType": "community",
     "priority": 1,
-    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
+    "accessNote": "可依長者能力與陪同需求安排活動，前往前請確認開放資訊。"
   },
   {
     "id": "r106",
@@ -2677,7 +2599,7 @@
     "sourceTypes": [
       "運動"
     ],
-    "role": "運動休閒、外出活動與社會參與",
+    "role": "運動、休閒與社會參與場域",
     "phone": "",
     "address": "421臺中市后里區堤防路518號",
     "contact": "",
@@ -2693,7 +2615,7 @@
     ],
     "accessType": "community",
     "priority": 1,
-    "accessNote": "屬運動與休閒場域，前往前請確認開放時間及陪同需求。"
+    "accessNote": "可依長者能力與陪同需求安排活動，前往前請確認開放資訊。"
   },
   {
     "id": "r107",
@@ -2702,7 +2624,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2715,8 +2637,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r108",
@@ -2725,7 +2647,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2738,8 +2660,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r109",
@@ -2748,7 +2670,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2761,8 +2683,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r110",
@@ -2771,7 +2693,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2784,8 +2706,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r111",
@@ -2794,7 +2716,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2807,8 +2729,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r112",
@@ -2817,7 +2739,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2830,8 +2752,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r113",
@@ -2840,7 +2762,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2853,8 +2775,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r114",
@@ -2863,7 +2785,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2876,8 +2798,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r115",
@@ -2886,7 +2808,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2899,8 +2821,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r116",
@@ -2909,7 +2831,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2922,8 +2844,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r117",
@@ -2932,7 +2854,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2945,8 +2867,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r118",
@@ -2955,7 +2877,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2968,8 +2890,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r119",
@@ -2978,7 +2900,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -2991,8 +2913,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r120",
@@ -3001,7 +2923,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -3014,8 +2936,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r121",
@@ -3024,7 +2946,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -3037,8 +2959,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r122",
@@ -3047,7 +2969,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -3060,8 +2982,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r123",
@@ -3070,7 +2992,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -3083,8 +3005,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r124",
@@ -3093,7 +3015,7 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "在地宣導、友善環境與資源動員協力",
     "phone": "",
     "address": "",
     "contact": "",
@@ -3106,8 +3028,8 @@
     ],
     "useFor": [],
     "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "priority": 3,
+    "accessNote": "屬共照協力網絡，並非民眾直接求助窗口。"
   },
   {
     "id": "r125",
@@ -3116,21 +3038,23 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "高齡學習、運動與社會參與",
     "phone": "",
     "address": "",
     "contact": "",
     "carePoint": false,
     "verified": false,
     "officialUrl": "",
-    "publicAccess": false,
+    "publicAccess": true,
     "nodes": [
       "社區關懷"
     ],
-    "useFor": [],
-    "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可詢問課程、活動與參加方式。"
   },
   {
     "id": "r126",
@@ -3139,20 +3063,22 @@
     "sourceTypes": [
       "私部門"
     ],
-    "role": "企業、產業與在地協力",
+    "role": "高齡學習、運動與社會參與",
     "phone": "",
     "address": "",
     "contact": "",
     "carePoint": false,
     "verified": false,
     "officialUrl": "",
-    "publicAccess": false,
+    "publicAccess": true,
     "nodes": [
       "社區關懷"
     ],
-    "useFor": [],
-    "accessType": "network",
-    "priority": 4,
-    "accessNote": "屬在地協力網絡，並非民眾直接申請照顧服務的窗口。"
+    "useFor": [
+      "activity"
+    ],
+    "accessType": "community",
+    "priority": 1,
+    "accessNote": "可詢問課程、活動與參加方式。"
   }
 ]
